@@ -1,0 +1,15 @@
+
+
+[ -h | -? ] [ --help ]
+    [ --bins='integer' ]
+      --case_column='column_name|column_number'
+    [ --outside_n_sd_check='number' ]
+    [ --selection_method=''random'|'consecutive'' ]
+    [ --xv! ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'cdd -help' for a longer description.
+      Also see 'psn_options -h' for a description of common options.
+

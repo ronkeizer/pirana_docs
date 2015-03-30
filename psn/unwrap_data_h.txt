@@ -1,0 +1,26 @@
+
+  unwrap_data
+
+      Unwrap_data is a perl script that unwraps a data file coded with
+      the CONT data item for split rows. The only restriction is that
+      the subject identifier (ID) must be in column one.
+
+    Usage:
+
+      unwrap_data filename
+      [-cont_column=column_number]
+      [-new_name=new_filename]
+
+    Example:
+
+      ./unwrap_data -idc=1 -new=new_wrapped.dta old_big.dta
+
+    Options:
+
+      -cont_column
+	The column number of the CONT data itemn.
+
+      -new_name
+        The name of the new data set. If no name is given, the result
+        is printed on standard output.
+

@@ -1,0 +1,143 @@
+
+  sse
+
+    Stochastic Simulation and Estimation of NONMEM models.
+
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -thr, but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -add_models
+
+      This option tells PsN to add the alternative models listed with option 
+      -alternative_models to an old sse run. All models given via option
+      -alternative_models will be estimated from scratch, so the alternatives from
+      the old run should not be listed again. The -add_models option requires that 
+      the old sse run has been completed without errors. It is necessary to also set 
+      the general PsN option -directory to the sse directory of the old run, 
+      e.g. -directory=sse_dir50.
+      The user must ensure that the -samples option in the new sse run is 
+      equal to or smaller than in the old run. If some simulated datasets are 
+      missing it will result in an error. 
+      The simulation model must still be given as input on the command-line.
+      If the option -estimate_simulation is set (it is set by default) the 
+      original model will be estimated, regardless of whether is was estimated 
+      in the old run. Old estimation results will not be reloaded.
+      The numbering of the extra models will start at the number of the last old
+      alternative plus 1.
+
+
+      -alternative_models=alt1.mod,alt2.mod,...
+
+      List of one or more alternative models to use for estimation 
+      with simulated datasets. The filenames must be comma-separated,
+      no spaces.
+
+      -estimate_simulation
+
+      By default, the simulation model is also used for estimation with
+      the simulated datasets. The resulting OFV values are used as reference
+      when evaluating the estimation results of alternative models. By setting
+      -no-estimate_simulation the estimation of the simulation model is turned
+      off, and the first alternative model is used as reference instead. See
+      also -ref_ofv.
+
+      -in_filter=
+
+      Only relevant in combination with rawres_input. Default not used.
+      The parameter estimates lines in the file can be filtered on values 
+      in the different columns. When specifying which column(s) the filtering 
+      should be based on, the exact column name must be used, 
+      e.g. minimization_successful. Filtering can only be based on columns 
+      with numeric values. The allowed relations are .gt. (greater than), 
+      .lt. (less than) and .eq. (equal to). Conditions are separated with commas. 
+      If the remaining number of lines after filtering is smaller than -samples, 
+      sse will stop with an error message. Then the user must either change the 
+      filtering rules or change -samples. If the user has created a file with 
+      parameter estimates outside of PsN, filtering can be done on any numeric 
+      column in that file. Do not set column headers containing .eq. or .lt. 
+      or .gt.in the user-generated file as this would interfere with the in_filter 
+      option syntax.
+    
+      Example: -in_filter=minimization_successful.eq.1,significant_digits.gt.3.5
+
+
+      -offset_rawres=N
+
+      Only relevant in combination with rawres_input. Default 1.
+      The number of result lines to skip in the input raw results file
+      before starting to read final parameter estimates. In a regular
+      bootstrap raw_results file the first line of estimates refers to the
+      input model with the full dataset, so therefore the default offset is 1.
+
+      -out_filter=
+
+      Default not used. The user may choose to only compute results based on 
+      estimations which fulfill certain conditions. The default is to only skip 
+      runs where the ofv cannot be read from the lst-file or is equal to 0. 
+      Filtering of output can be done on any numeric column in a standard sse 
+      raw_results file, for example minimization_successful, significant_digits 
+      and covariance_step_successful. The allowed relations are .gt. (greater than), 
+      .lt. (less than) and .eq. (equal to). Conditions are separated with commas. 
+      If the remaining number of estimation results after filtering is less than 2, 
+      sse will stop with an error message.
+    
+      Example: -out_filter=minimization_successful.eq.1,significant_digits.gt.3.5
+
+
+      -parallel_simulations=1
+
+      parallel_simulations govern the number of simulations that will
+      be done in parallel. Normally simulations are quite fast and
+      need only be run one at a time. See the threads option for
+      control over the number of estimations to do in parallel.
+
+      -rawres_input=filename
+
+      A simple way to simulate with uncertainty.
+      Instead of using identical parameter estimates for simulation of each
+      new dataset, take parameter estimates from a raw_results.csv file,
+      e.g. from a bootstrap run. The raw results file must contain
+      at least as many samples as the input -samples to sse plus the 
+      value of option -offset_rawres, the labels
+      for THETA/OMEGA/SIGMA in the file must match the labels in the
+      simulation model given as input to sse, the theta columns must be directly followed
+      by the omega columns which must be directly followed by the sigma columns,
+      and the first column must have header model as a bootstrap raw_results file.
+
+      -recompute=
+
+      Default not set. Setting this option makes PsN recompute output statistics based on 
+      the specified raw_results file. Note that the filename must be given including the 
+      directory name. The user may change the -out_filter settings for the recomputation. 
+      Apart from -out_filter, the input model must be set, and -samples. 
+      Alternative models are not needed, information about them will be read from the raw results file.
+      Option -directory will be ignored, instead the directory specified as part of the file 
+      path will be used.
+
+      Example: -recompute=sse_dir12/raw_results_run1.csv
+
+      -ref_ofv=500
+
+      Instead of using the OFV values from the estimation of a model as
+      reference when evaluating the other estimation results,
+      it is possible to set a fixed reference OFV value. If using ref_ofv,
+      it is not allowed to also estimate the simulation model. 
+
+      -samples=N
+
+      The number of simulated datasets to generate.
+
+    Also see 'psn_options -h' for a description of common PsN options.
+

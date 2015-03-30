@@ -1,0 +1,95 @@
+
+  data_stats
+
+  Usage:
+
+  data_stats [ -h | -? ] [ -help ]
+             [ -columns='string' ]
+	     [ -ignore_columns='string' ]
+             [ -debug='integer' ] 
+	     [ -debug_package='string' ] 
+	     [ -debug_subroutine='string' ]
+	     outputfile(s)
+
+  Description:
+
+    data_stats calculates and prints simple statistics for data
+    files. Simple stastics are max, min, mean, median, range and
+    standard deviation for each column.
+
+  Examples:
+    
+    Calculate statistics for all columns in file.dta
+    
+    $ data_stats file.dta
+
+    Calculate statistics for all columns except WGT and AGE.
+    
+    $ data_stats --ignore_columns=WGT,AGE
+
+    Calculate statistics for WGT and AGE only
+
+    $ data_stats --columns=WGT,AGE
+
+  Options:
+
+    The options are given here in their long form. Any option may be
+    abbreviated to any nonconflicting prefix. The -threads option may
+    be abbreviated to -t(or even -thr) but -debug may not be
+    abbreviated to -d because it conflicts with -debug_packages and
+    -debug_subroutines.
+
+    The following options are valid:
+
+    -h | -?
+
+    Print a list of options.
+
+
+    -columns='strings'
+
+    By default data_stats prints statistics for all columns of the
+    data set. But if you give a comma separated list of column headers
+    or column numbers with the -columns option, then data_stats will
+    print statistics for those columns only.
+
+    
+    -ignore_columns='strings'
+
+    ignore_columns work the oposite way of -columns, it lets you
+    select column headers or column numbers for which data_stats
+    should not print statistcs. It also takes a comma separated list.
+
+    -help
+
+    Print this, longer, help message.
+
+
+    -debug='integer'
+
+    Default value is: 0
+
+    This is mainly for developers who whish to debug PsN. By default
+    'integer' is zero but you can try setting it to '1' and you might
+    get some helpfull warnings. If you run in to problems that require
+    support, you might be told to crank this number up and send the
+    output to us.
+
+
+    -debug_package='string'
+
+    Default value is: empty string
+
+    If use together with '-debug' it is possible to choose which part
+    of PsN you want to see debug messages from. Again this is mostly
+    for developers.
+
+
+    -debug_subroutine='string'
+    
+    Default value is: empty string
+
+    With this option it is possible to specify, with even finer
+    granularity, which part of PsN you want to see debug messages
+    from. This is definitly only for developers.
+

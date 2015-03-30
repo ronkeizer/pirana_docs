@@ -1,0 +1,42 @@
+
+  mimp
+
+    Multiple imputation using PsN.
+
+
+
+
+  Description:
+
+    Multiple imputation
+
+
+
+    -alt_models='string'
+    Alternative models, comma-separated list.
+
+    -base_model='string'
+    Base model
+
+      -chain_models
+
+      No help available for 'chain_models'
+
+      -imputations
+
+      No help available for 'imputations'
+
+    -mi_model='string'
+    Multiple imputation model.
+
+    -reg_model='string'
+    Regression model
+
+    -samples=N
+
+    Number of samples.
+
+    -sim_model='string'
+    Simulation model
+
+

@@ -1,0 +1,2255 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.20)  23 MAR 2015 15:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\input manual_booklet.tex
+(./manual_booklet.tex
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(./enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen113
+\enit@toks=\toks18
+\enit@inbox=\box28
+\enitdp@description=\count93
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count94
+\lst@gtempboxa=\box29
+\lst@token=\toks19
+\lst@length=\count95
+\lst@currlwidth=\dimen114
+\lst@column=\count96
+\lst@pos=\count97
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count98
+\lst@lineno=\count99
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count100
+\lst@skipnumbers=\count101
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen118
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count104
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count105
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count106
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package color Info: Redefining color Grey on input line 22.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+
+LaTeX Warning: Unused global option(s):
+    [9pt].
+
+(./manual_booklet.aux
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig5' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig6' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig5' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig6' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig6' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig7' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig5' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig6' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig7' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fig5' multiply defined.
+
+)
+\openout1 = `manual_booklet.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 65.
+ (/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(65.04369pt, 303.53278pt, 65.04369pt)
+* v-part:(T,H,B)=(78.0524pt, 455.29901pt, 117.0786pt)
+* \paperwidth=433.62015pt
+* \paperheight=650.43001pt
+* \textwidth=303.53278pt
+* \textheight=497.92322pt
+* \oddsidemargin=-7.2263pt
+* \evensidemargin=-7.2263pt
+* \topmargin=-31.21759pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen122
+\scratchbox=\box31
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen123
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count118
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 65.
+ (/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count119
+)
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
+ (./manual_booklet.out) (./manual_booklet.out)
+\@outlinefile=\write3
+\openout3 = `manual_booklet.out'.
+
+\big@size=\dimen124
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 86.
+
+<images/pirana_logo.jpg, id=305, 1003.75pt x 602.25pt>
+File: images/pirana_logo.jpg Graphic file (type jpg)
+
+<use images/pirana_logo.jpg>
+Package pdftex.def Info: images/pirana_logo.jpg used on input line 86.
+(pdftex.def)             Requested size: 200.74644pt x 120.44786pt.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 86.
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 86.
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 86.
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 86.
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+
+LaTeX Warning: No \author given.
+
+[1
+
+{/usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+images/pirana_logo.jpg>]
+Overfull \hbox (2.00471pt too wide) in paragraph at lines 93--94
+\OT1/ppl/m/n/9 Creative Com-mons Attribution-NonCommercial-ShareAlike 4.0 In-te
+r-na-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \newpage
+               [1]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 109.
+ (./manual_booklet.toc
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
+ [2
+
+] [3])
+\tf@toc=\write4
+\openout4 = `manual_booklet.toc'.
+
+ [4] (./manual_body.tex
+[5]
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+ []
+
+
+Overfull \hbox (7.70406pt too wide) in paragraph at lines 15--20
+\OT1/ppl/m/n/10 man-ual be-fore or while you start work-ing with Pi-rana is rec
+-om-mended.
+ []
+
+[6
+
+] [7]
+Chapter 2.
+
+Overfull \hbox (0.82321pt too wide) in paragraph at lines 48--51
+[]\OT1/ppl/m/n/10 Strictly, Pi-rana does not re-quire PsN in-stalled, al-though
+ the PsN-
+ []
+
+[8
+
+]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 76.
+ [9] [10]
+Overfull \hbox (3.81403pt too wide) in paragraph at lines 141--145
+\OT1/ppl/m/n/10 Some re-quired mod-ules can-not be in-stalled di-rectly from CP
+AN. These
+ []
+
+
+Overfull \hbox (0.46404pt too wide) in paragraph at lines 177--181
+\OT1/ppl/m/n/10 12.04), Open-SUSE (11.1), and Arch Linux, with Perl dis-tri-bu-
+tion 5.10.0
+ []
+
+[11]
+Overfull \hbox (6.71411pt too wide) in paragraph at lines 193--195
+[]\OT1/ppl/m/n/10 NONMEM con-trol stream-s/-model files. De-
+ []
+
+
+Overfull \hbox (4.98405pt too wide) in paragraph at lines 202--206
+[]\OT1/ppl/m/n/10 Preferably an ed-i-tor syntax-highlighting. We rec-om-mend
+ []
+
+[12] [13]
+Overfull \hbox (16.96301pt too wide) in paragraph at lines 228--235
+\OT1/ppl/m/n/10 pre-specified set-tings can do so by edit-ing the files in the 
+folder \OT1/ppl/m/it/10 ini[]defaults
+ []
+
+[14] [15]
+Chapter 3.
+<images/pirana_main_screen.png, id=480, 1176.395pt x 721.69624pt>
+File: images/pirana_main_screen.png Graphic file (type png)
+
+<use images/pirana_main_screen.png>
+Package pdftex.def Info: images/pirana_main_screen.png used on input line 272.
+(pdftex.def)             Requested size: 294.09804pt x 180.42361pt.
+ [16
+
+] [17 <./images/pirana_main_screen.png>]
+Overfull \hbox (8.88394pt too wide) in paragraph at lines 311--314
+[] \OT1/ppl/m/n/10 Mod-els can be cre-ated by us-ing the PK model wiz-ard. Choo
+se
+ []
+
+
+Overfull \hbox (2.03368pt too wide) in paragraph at lines 322--332
+\OT1/ppl/m/n/10 the par-ent model and click-ing `du-pli-cate' from the context-
+menu
+ []
+
+
+Overfull \hbox (8.2241pt too wide) in paragraph at lines 322--332
+\OT1/ppl/m/n/10 $MSFI record is added, pa-ram-e-ter es-ti-mate blocks are com-m
+ented
+ []
+
+<images/duplicate.png, id=493, 618.31pt x 373.395pt>
+File: images/duplicate.png Graphic file (type png)
+
+<use images/duplicate.png>
+Package pdftex.def Info: images/duplicate.png used on input line 334.
+(pdftex.def)             Requested size: 247.31961pt x 149.35535pt.
+ [18]
+Overfull \hbox (0.73415pt too wide) in paragraph at lines 341--349
+\OT1/ppl/m/n/10 The notes and color info are stored in a database file (\OT1/pp
+l/m/it/10 pi-rana.dir\OT1/ppl/m/n/10 ), which
+ []
+
+[19 <./images/duplicate.png>]
+Overfull \hbox (6.98372pt too wide) in paragraph at lines 397--405
+\OT1/ppl/m/n/10 on your lo-cal drives. If you have in-stalled NON-MEM in a non-
+common
+ []
+
+<images/nonmem_settings.png, id=507, 955.57pt x 626.34pt>
+File: images/nonmem_settings.png Graphic file (type png)
+
+<use images/nonmem_settings.png>
+Package pdftex.def Info: images/nonmem_settings.png used on input line 407.
+(pdftex.def)             Requested size: 296.22363pt x 194.16339pt.
+ [20] [21 <./images/nonmem_settings.png>]
+[22]
+Overfull \hbox (1.35374pt too wide) in paragraph at lines 455--459
+\OT1/ppl/m/n/10 model, e.g. which NON-MEM in-stal-la-tion to use, and if mod-el
+s should
+ []
+
+<images/nmfe_run.png, id=529, 614.295pt x 328.22626pt>
+File: images/nmfe_run.png Graphic file (type png)
+
+<use images/nmfe_run.png>
+Package pdftex.def Info: images/nmfe_run.png used on input line 461.
+(pdftex.def)             Requested size: 307.14674pt x 164.11272pt.
+
+Overfull \hbox (3.61397pt too wide) in paragraph at lines 461--462
+ [][] 
+ []
+
+[23
+
+ <./images/nmfe_run.png>]
+<images/settingsparallization.png, id=536, 1005.7575pt x 642.4pt>
+File: images/settingsparallization.png Graphic file (type png)
+
+<use images/settingsparallization.png>
+Package pdftex.def Info: images/settingsparallization.png used on input line 47
+4.
+(pdftex.def)             Requested size: 271.55815pt x 173.45032pt.
+ [24 <./images/settingsparallization.png>]
+Overfull \hbox (3.4332pt too wide) in paragraph at lines 481--492
+\OT1/ppl/m/n/10 con-tains es-sen-tial tools such as boot-strap-ping, vi-sual pr
+e-dic-tive checks
+ []
+
+
+Overfull \hbox (6.03352pt too wide) in paragraph at lines 481--492
+\OT1/ppl/m/n/10 (vpc), step-wise co-vari-ate mod-el-ing (scm), sim-u-la-tion an
+d re-estimation
+ []
+
+<images/Figure2_4_PsNdialog2.png, id=543, 669.50125pt x 393.47pt>
+File: images/Figure2_4_PsNdialog2.png Graphic file (type png)
+
+<use images/Figure2_4_PsNdialog2.png>
+Package pdftex.def Info: images/Figure2_4_PsNdialog2.png used on input line 494
+.
+(pdftex.def)             Requested size: 281.18861pt x 165.25626pt.
+ [25
+
+ <./images/Figure2_4_PsNdialog2.png>]
+Overfull \hbox (2.80461pt too wide) in paragraph at lines 508--520
+\OT1/ppl/m/n/10 On Win-dows, Pi-rana is ca-pa-ble of in-vok-ing the WFN-command
+s \OT1/ppl/m/it/10 nmgo
+ []
+
+[26] <images/estimates_window.png, id=555, 500.87125pt x 582.175pt>
+File: images/estimates_window.png Graphic file (type png)
+
+<use images/estimates_window.png>
+Package pdftex.def Info: images/estimates_window.png used on input line 554.
+(pdftex.def)             Requested size: 150.26253pt x 174.65384pt.
+ [27
+
+]
+<images/compare_estimates.png, id=560, 800.9925pt x 735.74875pt>
+File: images/compare_estimates.png Graphic file (type png)
+
+<use images/compare_estimates.png>
+Package pdftex.def Info: images/compare_estimates.png used on input line 559.
+(pdftex.def)             Requested size: 240.29959pt x 220.72632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--572
+
+ []
+
+[28 <./images/estimates_window.png> <./images/compare_estimates.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 573--578
+
+ []
+
+<images/intermed.png, id=569, 942.52126pt x 761.84625pt>
+File: images/intermed.png Graphic file (type png)
+
+<use images/intermed.png>
+Package pdftex.def Info: images/intermed.png used on input line 607.
+(pdftex.def)             Requested size: 282.75856pt x 228.55563pt.
+ [29]
+<images/vrr.png, id=577, 630.6762pt x 335.3328pt>
+File: images/vrr.png Graphic file (type png)
+ <use images/vrr.png>
+Package pdftex.def Info: images/vrr.png used on input line 629.
+(pdftex.def)             Requested size: 296.41785pt x 157.60643pt.
+ [30 <./images/intermed.png>]
+Overfull \hbox (15.83395pt too wide) in paragraph at lines 633--648
+\OT1/ppl/m/n/10 us-ing the dy-namic col-lapsable den-dro-grams, non-relevant mo
+del threads
+ []
+
+[31 <./images/vrr.png>] <images/plot.png, id=593, 775.89874pt x 658.46pt>
+File: images/plot.png Graphic file (type png)
+
+<use images/plot.png>
+Package pdftex.def Info: images/plot.png used on input line 663.
+(pdftex.def)             Requested size: 271.56862pt x 230.46445pt.
+
+Overfull \hbox (0.29462pt too wide) in paragraph at lines 673--680
+[]\OT1/ppl/m/n/10 Pirana can parse NONMEM-generated ta-bles, and CSV-files. Mul
+-
+ []
+
+[32 <./images/plot.png>] [33]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 751.
+
+<images/interactive_scripts.png, id=617, 439.6425pt x 250.9375pt>
+File: images/interactive_scripts.png Graphic file (type png)
+
+<use images/interactive_scripts.png>
+Package pdftex.def Info: images/interactive_scripts.png used on input line 760.
+
+(pdftex.def)             Requested size: 219.82071pt x 125.46843pt.
+ [34 <./images/interactive_scripts.png>]
+<images/xposewindow.png, id=637, 553.06625pt x 512.91624pt>
+File: images/xposewindow.png Graphic file (type png)
+
+<use images/xposewindow.png>
+Package pdftex.def Info: images/xposewindow.png used on input line 781.
+(pdftex.def)             Requested size: 276.53244pt x 256.45749pt.
+ [35 <./images/xposewindow.png>] [36]
+Overfull \hbox (0.60368pt too wide) in paragraph at lines 850--853
+\OT1/ppl/m/n/10 ing. At cur-rent, Pi-rana can only con-vert mod-els writ-ten us
+-ing normal-
+ []
+
+[37] [38] <images/diff.png, id=673, 1060.96375pt x 769.87625pt>
+File: images/diff.png Graphic file (type png)
+
+<use images/diff.png>
+Package pdftex.def Info: images/diff.png used on input line 928.
+(pdftex.def)             Requested size: 297.06783pt x 215.56387pt.
+ [39 <./images/diff.png>]
+<images/modelbackup.png, id=682, 763.85374pt x 484.81125pt>
+File: images/modelbackup.png Graphic file (type png)
+
+<use images/modelbackup.png>
+Package pdftex.def Info: images/modelbackup.png used on input line 946.
+(pdftex.def)             Requested size: 267.35281pt x 169.68648pt.
+
+<images/cor.png, id=683, 1053.9375pt x 396.48125pt>
+File: images/cor.png Graphic file (type png)
+ <use images/cor.png>
+Package pdftex.def Info: images/cor.png used on input line 958.
+(pdftex.def)             Requested size: 295.1005pt x 111.01398pt.
+
+[40 <./images/modelbackup.png>] [41 <./images/cor.png>]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 1009
+.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1009.
+
+Missing character: There is no Ô in font pplr7t!
+Missing character: There is no ø in font pplr7t!
+Missing character: There is no Ω in font pplr7t!
+
+Overfull \hbox (39.91403pt too wide) in paragraph at lines 1013--1015
+[]\OT1/ppl/m/n/7 Hodges and Sar-gent, Count-ing de-grees of free-dom in hi-er-a
+r-chi-cal and other richly]parameterised
+ []
+
+[42]
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1036.
+
+ [43
+
+]
+Overfull \hbox (0.60411pt too wide) in paragraph at lines 1089--1096
+\OT1/ppl/m/n/10 needed for com-pi-la-tion (e.g. ad-di-tional For-tran rou-tines
+ in .FOR
+ []
+
+[44]
+Overfull \hbox (4.06424pt too wide) in paragraph at lines 1130--1134
+\OT1/ppl/m/n/10 com-mand line. (For-tu-nately Pi-rana hardly ever crashes, thou
+gh). 
+ []
+
+[45
+
+]
+Overfull \hbox (2.21416pt too wide) in paragraph at lines 1157--1158
+[]\OT1/ppl/m/n/10 Please check for any er-rors dur-ing startup by us-ing the \O
+T1/cmtt/m/n/10 -console
+ []
+
+
+Overfull \hbox (26.7238pt too wide) in paragraph at lines 1180--1188
+\OT1/ppl/m/n/10 with Pi-rana (in the folder where you in-stalled it, prob-a-bly
+ C:$\OMS/zplm/m/n/10 n$\OT1/ppl/m/n/10 Program
+ []
+
+[46] [47]
+Overfull \hbox (1.38553pt too wide) in paragraph at lines 1233--1234
+\OT1/ppl/m/n/10 grams Biomed 2011 Jan;101(1):72-9; Pira[]na and PClus-ter: a mo
+d-
+ []
+
+
+Overfull \hbox (23.63393pt too wide) in paragraph at lines 1233--1234
+\OT1/ppl/m/n/10 el-ing en-vi-ron-ment and clus-ter in-fras-truc-ture for NON-ME
+M. PubMed 
+ []
+
+[48] [49
+
+]
+Chapter 4.
+
+Overfull \hbox (2.84358pt too wide) in paragraph at lines 1259--1269
+\OT1/ppl/m/n/10 Pirana sup-ports in-ter-ac-tion with Linux-based clus-ters on w
+hich NON-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1288
+
+ []
+
+[50
+
+]
+Overfull \hbox (120.8227pt too wide) in paragraph at lines 1290--1296
+\OT1/ppl/m/n/10 man-ager is Xming, which can be ob-tained for free from http://
+sourceforge.net/projects/xming/.
+ []
+
+[51]
+Overfull \hbox (38.43266pt too wide) in paragraph at lines 1330--1335
+\OT1/ppl/m/n/10 ences with PuTTY (http://www.chiark.greenend.org.uk/$\OMS/zplm/
+m/n/10 ^^X$\OT1/ppl/m/n/10 sgtatham/putty/)
+ []
+
+
+Overfull \hbox (5.11394pt too wide) in paragraph at lines 1330--1335
+\OT1/ppl/m/n/10 and OpenSSH (down-load from http://sshwindows.sourceforge.net/)
+. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
+
+ []
+
+[52] <images/Figure3_1_SGEmonitor.png, id=788, 655.44875pt x 553.06625pt>
+File: images/Figure3_1_SGEmonitor.png Graphic file (type png)
+
+<use images/Figure3_1_SGEmonitor.png>
+Package pdftex.def Info: images/Figure3_1_SGEmonitor.png used on input line 140
+2.
+(pdftex.def)             Requested size: 196.63614pt x 165.92114pt.
+ (./amw_tutorial.tex [53] [54 <./images/Figure3_1_SGEmonitor.png>]
+Chapter 5.
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 11.
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 11.
+ [55
+
+]
+<images/screen1.png, id=805, 498.86375pt x 470.75874pt>
+File: images/screen1.png Graphic file (type png)
+
+<use images/screen1.png>
+Package pdftex.def Info: images/screen1.png used on input line 36.
+(pdftex.def)             Requested size: 249.43126pt x 235.3788pt.
+
+<images/compare.png, id=806, 619.31375pt x 218.8175pt>
+File: images/compare.png Graphic file (type png)
+
+<use images/compare.png>
+Package pdftex.def Info: images/compare.png used on input line 54.
+(pdftex.def)             Requested size: 309.65611pt x 109.40848pt.
+
+Overfull \hbox (6.12334pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[56 <./images/screen1.png>]
+<images/screen2.png, id=814, 434.62375pt x 501.875pt>
+File: images/screen2.png Graphic file (type png)
+ <use images/screen2.png>
+Package pdftex.def Info: images/screen2.png used on input line 84.
+(pdftex.def)             Requested size: 217.31134pt x 250.93687pt.
+
+[57 <./images/compare.png>] [58 <./images/screen2.png>]
+<images/screen3.png, id=829, 409.53pt x 409.53pt>
+File: images/screen3.png Graphic file (type png)
+ <use images/screen3.png>
+Package pdftex.def Info: images/screen3.png used on input line 120.
+(pdftex.def)             Requested size: 204.7645pt x 204.7645pt.
+
+<images/psn_simple.png, id=830, 643.40375pt x 313.17pt>
+File: images/psn_simple.png Graphic file (type png)
+
+<use images/psn_simple.png>
+Package pdftex.def Info: images/psn_simple.png used on input line 137.
+(pdftex.def)             Requested size: 321.70108pt x 156.58461pt.
+
+Overfull \hbox (18.1683pt too wide) in paragraph at lines 137--138
+ [][] 
+ []
+
+[59 <./images/screen3.png>]
+<images/run_r.png, id=838, 292.09125pt x 592.2125pt>
+File: images/run_r.png Graphic file (type png)
+ <use images/run_r.png>
+Package pdftex.def Info: images/run_r.png used on input line 152.
+(pdftex.def)             Requested size: 146.04526pt x 296.10551pt.
+
+<images/report.png, id=839, 999.735pt x 716.6775pt>
+File: images/report.png Graphic file (type png)
+ <use images/report.png>
+Package pdftex.def Info: images/report.png used on input line 179.
+(pdftex.def)             Requested size: 499.86627pt x 358.33788pt.
+
+Overfull \hbox (196.3335pt too wide) in paragraph at lines 179--180
+ [][] 
+ []
+
+[60 <./images/psn_simple.png>] [61 <./images/run_r.png>]) [62 <./images/report.
+png>]
+Chapter 6.
+<images/cpirana_main.png, id=860, 1023.825pt x 622.325pt>
+File: images/cpirana_main.png Graphic file (type png)
+
+<use images/cpirana_main.png>
+Package pdftex.def Info: images/cpirana_main.png used on input line 1452.
+(pdftex.def)             Requested size: 307.14987pt x 186.69893pt.
+
+Overfull \hbox (3.6171pt too wide) in paragraph at lines 1452--1453
+ [][] 
+ []
+
+[63
+
+] [64 <./images/cpirana_main.png>] [65]
+Chapter 7.
+[66
+
+]
+Overfull \hbox (14.33359pt too wide) in paragraph at lines 1552--1560
+[]\OT1/ppl/m/n/10 ValPirana will then read the ini-file, and loop (al-pha-bet-i
+-cally) through
+ []
+
+[67] [68] [69]
+Chapter 8.
+) [70
+
+] [71]
+Chapter 9.
+(./manual_tutorial.tex
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+
+Overfull \hbox (15.03345pt too wide) in paragraph at lines 29--56
+\OT1/ppl/m/n/10 Started in the early 80s with the de-vel-op-ment of the NON-MEM
+ (acronym
+ []
+
+[72
+
+] [73]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+
+Overfull \hbox (5.59404pt too wide) in paragraph at lines 88--95
+\OT1/ppl/m/n/10 pa-ram-e-ters in mixed-effects mod-els (pop-u-la-tion ap-proach
+) based
+ []
+
+
+Overfull \hbox (0.37422pt too wide) in paragraph at lines 88--95
+\OT1/ppl/m/n/10 lates model code writ-ten in a unique Fortran-based syn-tax (NM
+-
+ []
+
+
+Overfull \hbox (13.26361pt too wide) in paragraph at lines 104--113
+\OT1/ppl/m/n/10 vel-oped as a mod-ule for the R soft-ware (http://cran.r-projec
+t.org/,
+ []
+
+
+Overfull \hbox (7.08415pt too wide) in paragraph at lines 104--113
+\OT1/ppl/m/n/10 de-vel-oped at Up-p-sala Uni-ver-sity and are re-leased un-der 
+an open-
+ []
+
+
+Overfull \hbox (15.2939pt too wide) in paragraph at lines 114--123
+[]\OT1/ppl/m/n/10 [7] is a graph-i-cal user in-ter-face for NON-MEM, PsN and Xp
+ose/R.
+ []
+
+
+Overfull \hbox (1.67413pt too wide) in paragraph at lines 114--123
+\OT1/ppl/m/n/10 other tools. De-vel-op-ment of Pi-rana started in 2007 at the N
+ether-
+ []
+
+[74]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ <images/fig1_Pirana_main.png, id=942, 468.7914pt x 269.808pt>
+File: images/fig1_Pirana_main.png Graphic file (type png)
+
+<use images/fig1_Pirana_main.png>
+Package pdftex.def Info: images/fig1_Pirana_main.png used on input line 154.
+(pdftex.def)             Requested size: 304.7108pt x 175.37312pt.
+
+Overfull \hbox (1.17802pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+[75]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+
+Overfull \hbox (1.55382pt too wide) in paragraph at lines 179--188
+\OT1/ppl/m/n/10 and un-suc-cess-ful min-i-miza-tions, and ini-tial es-ti-mates 
+can be tweaked.
+ []
+
+[76 <./images/fig1_Pirana_main.png>]
+<images/fig2_psn_execute.png, id=956, 696.6025pt x 386.44376pt>
+File: images/fig2_psn_execute.png Graphic file (type png)
+
+<use images/fig2_psn_execute.png>
+Package pdftex.def Info: images/fig2_psn_execute.png used on input line 211.
+(pdftex.def)             Requested size: 278.63606pt x 154.57475pt.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+ [77 <./images/fig2_psn_execute.png>]
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+Missing character: There is no ‚ in font cmtt10!
+Missing character: There is no Ä in font cmtt10!
+Missing character: There is no ì in font cmtt10!
+
+Overfull \hbox (2.19405pt too wide) in paragraph at lines 255--269
+[]\OT1/ppl/m/n/10 Diagnostic plots are a main de-ci-sion tool in phar-ma-co-met
+-ric model
+ []
+
+[78] <images/fig3_xposeGUI.png, id=977, 586.19pt x 468.75125pt>
+File: images/fig3_xposeGUI.png Graphic file (type png)
+
+<use images/fig3_xposeGUI.png>
+Package pdftex.def Info: images/fig3_xposeGUI.png used on input line 271.
+(pdftex.def)             Requested size: 234.47185pt x 187.49716pt.
+ [79 <./images/fig3_xposeGUI.png>]
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 290.
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+[]\OT1/ppl/m/n/8 Between sub-ject vari-abil-ity
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[80] [81
+
+
+
+]
+Overfull \hbox (16.88336pt too wide) in paragraph at lines 358--368
+\OT1/ppl/m/n/10 nos-tic plots based on NON-MEM out-put, or check-ing in-put dat
+asets.
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+
+Overfull \hbox (1.14397pt too wide) in paragraph at lines 368--378
+\OT1/ppl/m/n/10 Se-lect a model and se-lect the one of the R-scripts from the S
+cripts
+ []
+
+
+Overfull \hbox (0.32433pt too wide) in paragraph at lines 379--383
+[]\OT1/ppl/m/n/10 Xpose menu sys-tem in R: The Xpose menu sys-tem can be starte
+d
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[82
+
+] [83]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 416.
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+
+Overfull \hbox (10.39268pt too wide) in paragraph at lines 415--431
+[][] 
+ []
+
+[84]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ <images/fig4_vrr.png, id=1016, 1025.8325pt x 571.13374pt>
+File: images/fig4_vrr.png Graphic file (type png)
+
+<use images/fig4_vrr.png>
+Package pdftex.def Info: images/fig4_vrr.png used on input line 469.
+(pdftex.def)             Requested size: 307.75212pt x 171.34145pt.
+
+Overfull \hbox (4.21935pt too wide) in paragraph at lines 469--470
+ [][] 
+ []
+
+[85
+
+
+ <./images/fig4_vrr.png>]
+Overfull \hbox (2.66417pt too wide) in paragraph at lines 492--504
+\OT1/ppl/m/n/10 als ($\OMS/zplm/m/n/10 j$\OT1/ppl/m/n/10 IWRES$\OMS/zplm/m/n/10
+ j$\OT1/ppl/m/n/10 ) ver-sus in-di-vid-ual pre-dic-tions (IPRED). For a true mo
+del,
+ []
+
+
+Overfull \hbox (0.41322pt too wide) in paragraph at lines 492--504
+\OT1/ppl/m/n/10 the dis-tri-bu-tion of ab-so-lute resid-u-als should be sim-i-l
+ar over the whole
+ []
+
+Missing character: There is no Œ in font pplr7t!
+Missing character: There is no µ in font pplr7t!
+
+Overfull \hbox (10.30412pt too wide) in paragraph at lines 511--518
+\OT1/ppl/m/n/10 loses in-for-ma-tive-ness).[12] In cases of higher shrink-age, 
+plots of CWRES
+ []
+
+
+Overfull \hbox (8.52426pt too wide) in paragraph at lines 511--518
+\OT1/ppl/m/n/10 ver-sus in-di-vid-ual pre-dic-tions (IPRED), or IWRES$[]$ [13] 
+ver-sus IPRED
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[86]
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ [87]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font cmtt10!
+Missing character: There is no Ä in font cmtt10!
+Missing character: There is no ì in font cmtt10!
+Missing character: There is no ‚ in font cmtt10!
+Missing character: There is no Ä in font cmtt10!
+Missing character: There is no ì in font cmtt10!
+
+Overfull \hbox (2.69363pt too wide) in paragraph at lines 604--640
+[]\OT1/ppl/m/n/10 Earlier in this tu-to-rial we pre-sented how ba-sic goodness-
+of-fit plots
+ []
+
+
+Overfull \hbox (0.354pt too wide) in paragraph at lines 604--640
+\OT1/ppl/m/n/10 (\OT1/cmtt/m/n/10 -bin[]array=x,y,z,etc\OT1/ppl/m/n/10 ), bin-n
+ing into an equal num-ber of dat-a-points
+ []
+
+[88] <images/fig5_vpc.png, id=1046, 305.943pt x 287.6346pt>
+File: images/fig5_vpc.png Graphic file (type png)
+
+<use images/fig5_vpc.png>
+Package pdftex.def Info: images/fig5_vpc.png used on input line 642.
+(pdftex.def)             Requested size: 244.75471pt x 230.10797pt.
+ [89]
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+Missing character: There is no ‚ in font cmtt9!
+Missing character: There is no Ä in font cmtt9!
+Missing character: There is no ì in font cmtt9!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [90 <./images/fig5_vpc.png>]
+Overfull \hbox (2.98366pt too wide) in paragraph at lines 700--716
+\OT1/ppl/m/n/10 the in-di-vid-ual ob-jec-tive func-tion val-ues cal-cu-lated in
+ NON-MEM
+ []
+
+[91]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ò in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+ [92]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--770
+[]\OT1/ppl/m/n/8 Log-Likelihood pro-fil-ing and maximum-
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+
+Overfull \hbox (10.39267pt too wide) in paragraph at lines 759--778
+[][] 
+ []
+
+Missing character: There is no ‚ in font pplri7t!
+Missing character: There is no Ä in font pplri7t!
+Missing character: There is no ì in font pplri7t!
+Missing character: There is no ‚ in font pplri7t!
+Missing character: There is no Ä in font pplri7t!
+Missing character: There is no ì in font pplri7t!
+Missing character: There is no ‚ in font pplri7t!
+Missing character: There is no Ä in font pplri7t!
+Missing character: There is no ô in font pplri7t!
+[93]
+Overfull \hbox (0.41417pt too wide) in paragraph at lines 803--806
+\OT1/ppl/m/n/10 The re-searchers in the Phar-ma-co-met-rics Re-search Group are
+ ac-knowl-
+ []
+
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no √ in font pplr7t!
+Missing character: There is no ± in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ô in font pplr7t!
+[94
+
+
+]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ì in font pplr7t!
+Missing character: There is no √ in font pplr7t!
+Missing character: There is no ∂ in font pplr7t!
+) [95]
+Chapter 10.
+[96
+
+
+] (./7_quick_guide_configuration_pirana_body.tex
+Overfull \hbox (1.65408pt too wide) in paragraph at lines 12--13
+[]\OT1/ppl/m/n/10 Most of the set-tings for Pi-rana can be con-fig-ured through
+ the menu
+ []
+
+<images/settings_1.jpg, id=1115, 715.92468pt x 450.9347pt>
+File: images/settings_1.jpg Graphic file (type jpg)
+
+<use images/settings_1.jpg>
+Package pdftex.def Info: images/settings_1.jpg used on input line 27.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[97
+
+] <images/settings_2.jpg, id=1124, 715.92468pt x 450.9347pt>
+File: images/settings_2.jpg Graphic file (type jpg)
+
+<use images/settings_2.jpg>
+Package pdftex.def Info: images/settings_2.jpg used on input line 51.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[98 <./images/settings_1.jpg>]
+<images/settings_3.jpg, id=1130, 715.92468pt x 450.9347pt>
+File: images/settings_3.jpg Graphic file (type jpg)
+
+<use images/settings_3.jpg>
+Package pdftex.def Info: images/settings_3.jpg used on input line 63.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (7.0835pt too wide) in paragraph at lines 71--72
+[]\OT1/ppl/m/it/10 Sweave pream-ble/-postam-ble\OT1/ppl/m/n/10 : If the Sweave 
+func-tion-al-ity from Xpose
+ []
+
+<images/settings_4.jpg, id=1131, 715.92468pt x 450.9347pt>
+File: images/settings_4.jpg Graphic file (type jpg)
+
+<use images/settings_4.jpg>
+Package pdftex.def Info: images/settings_4.jpg used on input line 76.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[99 <./images/settings_2.jpg>]
+<images/settings_5.jpg, id=1140, 715.92468pt x 450.9347pt>
+File: images/settings_5.jpg Graphic file (type jpg)
+
+<use images/settings_5.jpg>
+Package pdftex.def Info: images/settings_5.jpg used on input line 92.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/settings_6.jpg, id=1141, 715.92468pt x 450.9347pt>
+File: images/settings_6.jpg Graphic file (type jpg)
+
+<use images/settings_6.jpg>
+Package pdftex.def Info: images/settings_6.jpg used on input line 106.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [100 <./images/settings_3.jpg>] [101 <./images/settings_4.jpg> <./images/sett
+ings_5.jpg>] [102 <./images/settings_6.jpg>]
+(./3_quick_guide_nonmem_installation_body.tex
+<images/addnonmem_1.jpg, id=1161, 715.92468pt x 450.9347pt>
+File: images/addnonmem_1.jpg Graphic file (type jpg)
+
+<use images/addnonmem_1.jpg>
+Package pdftex.def Info: images/addnonmem_1.jpg used on input line 25.
+(pdftex.def)             Requested size: 300.68631pt x 189.39128pt.
+ [103
+
+ <./images/addnonmem_1.jpg>]
+Overfull \hbox (0.65363pt too wide) in paragraph at lines 40--42
+[]\OT1/ppl/m/n/10 After adding NON-MEM in-stal-la-tions, please press the Save 
+but-
+ []
+
+<images/addnonmem_2.jpg, id=1173, 314.67563pt x 132.495pt>
+File: images/addnonmem_2.jpg Graphic file (type jpg)
+
+<use images/addnonmem_2.jpg>
+Package pdftex.def Info: images/addnonmem_2.jpg used on input line 45.
+(pdftex.def)             Requested size: 157.33742pt x 66.24733pt.
+
+Overfull \hbox (3.23389pt too wide) in paragraph at lines 51--53
+\OT1/ppl/m/n/10 re-mote NON-MEM in-stal-la-tions, they will have to be added ma
+n-
+ []
+
+
+Overfull \hbox (5.09386pt too wide) in paragraph at lines 55--57
+[]\OT1/ppl/m/n/10 A win-dow (Fig-ure []10.50[]) ap-pears, in which the in-stal-
+la-tion name,
+ []
+
+<images/addnonmem_3.jpg, id=1176, 314.67563pt x 152.06813pt>
+File: images/addnonmem_3.jpg Graphic file (type jpg)
+
+<use images/addnonmem_3.jpg>
+Package pdftex.def Info: images/addnonmem_3.jpg used on input line 62.
+(pdftex.def)             Requested size: 157.33742pt x 76.03387pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (6.91354pt too wide) in paragraph at lines 67--73
+\OT1/ppl/m/n/10 wide, NON-MEM in-stal-la-tions us-ing In-tel For-tran should al
+-ready work.
+ []
+
+[104 <./images/addnonmem_2.jpg>]
+Overfull \hbox (1.32207pt too wide) in paragraph at lines 105--105
+[]\OT1/cmtt/m/n/10 PATH=C:$\OMS/zplm/m/n/10 n$\OT1/cmtt/m/n/10 nmvi$\OMS/zplm/m
+/n/10 n$\OT1/cmtt/m/n/10 run;C:$\OMS/zplm/m/n/10 n$\OT1/cmtt/m/n/10 MinGW$\OMS/
+zplm/m/n/10 n$\OT1/cmtt/m/n/10 bin 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\OT1/cmtt/m/n/10 LIB=C:$\OMS/zplm/m/n/10 n$\OT1/cmtt/m/n/10 Program files$\OMS/
+zplm/m/n/10 n$\OT1/cmtt/m/n/10 Intel
+ []
+
+) [105 <./images/addnonmem_3.jpg>] [106] (./2_quick_guide_cluster_body.tex
+Overfull \hbox (11.46327pt too wide) in paragraph at lines 37--39
+[]\OT1/ppl/m/n/10 If only SSH (SFTP) ac-cess is avail-able, soft-ware such as [
+]Ex-pandrive[]
+ []
+
+<images/cluster_1.JPG, id=1202, 733.99219pt x 452.4403pt>
+File: images/cluster_1.JPG Graphic file (type jpg)
+
+<use images/cluster_1.JPG>
+Package pdftex.def Info: images/cluster_1.JPG used on input line 52.
+(pdftex.def)             Requested size: 293.59167pt x 180.97292pt.
+ [107
+
+]
+<images/cluster_2.JPG, id=1212, 715.92468pt x 450.9347pt>
+File: images/cluster_2.JPG Graphic file (type jpg)
+
+<use images/cluster_2.JPG>
+Package pdftex.def Info: images/cluster_2.JPG used on input line 63.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[108 <./images/cluster_1.JPG>]
+<images/cluster_3b.JPG, id=1220, 715.92468pt x 450.9347pt>
+File: images/cluster_3b.JPG Graphic file (type jpg)
+
+<use images/cluster_3b.JPG>
+Package pdftex.def Info: images/cluster_3b.JPG used on input line 89.
+(pdftex.def)             Requested size: 286.36479pt x 180.37068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[109 <./images/cluster_2.JPG>]
+<images/cluster_4.JPG, id=1231, 477.28313pt x 263.48438pt>
+File: images/cluster_4.JPG Graphic file (type jpg)
+
+<use images/cluster_4.JPG>
+Package pdftex.def Info: images/cluster_4.JPG used on input line 118.
+(pdftex.def)             Requested size: 190.90987pt x 105.39188pt.
+ [110 <./images/cluster_3b.JPG> <./images/cluster_4.JPG>]
+Overfull \hbox (10.14374pt too wide) in paragraph at lines 128--131
+[]\OT1/ppl/m/n/10 Add op-tional ar-gu-ments to the PsN ar-gu-ment, such as \OT1
+/ppl/m/it/10 -run[]on[]sge\OT1/ppl/m/n/10 ,
+ []
+
+
+Overfull \hbox (0.13403pt too wide) in paragraph at lines 131--136
+\OT1/ppl/m/n/10 fig-u-ra-tion of these job sched-ulers should be done in the ps
+n.conf
+ []
+
+<images/cluster_5.JPG, id=1240, 594.72188pt x 469.00218pt>
+File: images/cluster_5.JPG Graphic file (type jpg)
+
+<use images/cluster_5.JPG>
+Package pdftex.def Info: images/cluster_5.JPG used on input line 140.
+(pdftex.def)             Requested size: 237.88454pt x 187.59755pt.
+ [111 <./images/cluster_5.JPG>]
+<images/cluster_6.JPG, id=1250, 636.12656pt x 429.85594pt>
+File: images/cluster_6.JPG Graphic file (type jpg)
+
+<use images/cluster_6.JPG>
+Package pdftex.def Info: images/cluster_6.JPG used on input line 161.
+(pdftex.def)             Requested size: 254.4461pt x 171.93933pt.
+) [112 <./images/cluster_6.JPG>]
+(./4_quick_guide_working_with_models_body.tex
+Overfull \hbox (3.68404pt too wide) in paragraph at lines 6--8
+[]\OT1/ppl/m/n/10 When se-lect-ing a model and us-ing the right mouse-button me
+nu,
+ []
+
+<images/working_3.jpg, id=1257, 633.86812pt x 389.95688pt>
+File: images/working_3.jpg Graphic file (type jpg)
+
+<use images/working_3.jpg>
+Package pdftex.def Info: images/working_3.jpg used on input line 14.
+(pdftex.def)             Requested size: 253.54276pt x 155.97998pt.
+
+Overfull \hbox (2.5537pt too wide) in paragraph at lines 22--23
+[]\OT1/ppl/m/n/10 Select the model and open the right-mouse but-ton con-text me
+nu. 
+ []
+
+[113
+
+ <./images/working_3.jpg>]
+Overfull \hbox (15.54288pt too wide) in paragraph at lines 46--48
+[]\OT1/ppl/m/it/10 Clusters-Parallelization\OT1/ppl/m/n/10 : Run us-ing par-al-
+leliza-tion avail-able in NON-
+ []
+
+<images/working_4.jpg, id=1266, 570.63188pt x 444.15938pt>
+File: images/working_4.jpg Graphic file (type jpg)
+
+<use images/working_4.jpg>
+Package pdftex.def Info: images/working_4.jpg used on input line 56.
+(pdftex.def)             Requested size: 228.2487pt x 177.6606pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[114] <images/working_5.jpg, id=1275, 653.44125pt x 441.14813pt>
+File: images/working_5.jpg Graphic file (type jpg)
+
+<use images/working_5.jpg>
+Package pdftex.def Info: images/working_5.jpg used on input line 81.
+(pdftex.def)             Requested size: 261.37187pt x 176.45612pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/working_1.jpg, id=1277, 320.69812pt x 292.09125pt>
+File: images/working_1.jpg Graphic file (type jpg)
+
+<use images/working_1.jpg>
+Package pdftex.def Info: images/working_1.jpg used on input line 96.
+(pdftex.def)             Requested size: 160.34866pt x 146.04526pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.81392pt too wide) in paragraph at lines 103--104
+[]\OT1/ppl/m/n/10 In the Wiz-ards menu (Fig-ure []10.52[]), se-lect PK NON-MEM 
+model. 
+ []
+
+<images/working_2.jpg, id=1279, 221.32687pt x 159.59625pt>
+File: images/working_2.jpg Graphic file (type jpg)
+
+<use images/working_2.jpg>
+Package pdftex.def Info: images/working_2.jpg used on input line 109.
+(pdftex.def)             Requested size: 110.66315pt x 79.79791pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[115 <./images/working_4.jpg>]
+Overfull \hbox (5.31395pt too wide) in paragraph at lines 117--122
+[]\OT1/ppl/m/n/10 Please note that an al-ter-na-tive code ed-i-tor can be de-fi
+ned through
+ []
+
+[116 <./images/working_5.jpg>]
+<images/working_6.jpg, id=1297, 541.27219pt x 247.67531pt>
+File: images/working_6.jpg Graphic file (type jpg)
+
+<use images/working_6.jpg>
+Package pdftex.def Info: images/working_6.jpg used on input line 142.
+(pdftex.def)             Requested size: 270.63542pt x 123.83734pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[117 <./images/working_1.jpg> <./images/working_2.jpg>]
+<images/report_1.png, id=1311, 1282.7925pt x 722.7pt>
+File: images/report_1.png Graphic file (type png)
+
+<use images/report_1.png>
+Package pdftex.def Info: images/report_1.png used on input line 176.
+(pdftex.def)             Requested size: 320.69734pt x 180.67455pt.
+
+Overfull \hbox (17.16457pt too wide) in paragraph at lines 176--177
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/report_2.png, id=1312, 589.20125pt x 489.83pt>
+File: images/report_2.png Graphic file (type png)
+
+<use images/report_2.png>
+Package pdftex.def Info: images/report_2.png used on input line 181.
+(pdftex.def)             Requested size: 206.22351pt x 171.44305pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/report_4.png, id=1313, 676.5275pt x 496.85625pt>
+File: images/report_4.png Graphic file (type png)
+
+<use images/report_4.png>
+Package pdftex.def Info: images/report_4.png used on input line 186.
+(pdftex.def)             Requested size: 236.78816pt x 173.90228pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [118 <./images/working_6.jpg>] [119 <./images/report_1.png> <./images/report_
+2.png>] [120 <./images/report_4.png>] (./10_quick_guide_reporting_body.tex
+Overfull \hbox (6.76468pt too wide) in paragraph at lines 17--19
+[]\OT1/ppl/m/n/10 Run re-ports in var-i-ous for-mats (HTML, Word, text, La-TeX,
+ pdfLa-
+ []
+
+<images/report_5.png, id=1336, 506.89375pt x 734.745pt>
+File: images/report_5.png Graphic file (type png)
+
+<use images/report_5.png>
+Package pdftex.def Info: images/report_5.png used on input line 34.
+(pdftex.def)             Requested size: 202.7539pt x 293.89279pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/report_3.png, id=1337, 1282.7925pt x 357.335pt>
+File: images/report_3.png Graphic file (type png)
+
+<use images/report_3.png>
+Package pdftex.def Info: images/report_3.png used on input line 39.
+(pdftex.def)             Requested size: 320.69734pt x 89.33353pt.
+
+Overfull \hbox (17.16457pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[121
+
+]
+File: images/vrr.png Graphic file (type png)
+ <use images/vrr.png>
+Package pdftex.def Info: images/vrr.png used on input line 61.
+(pdftex.def)             Requested size: 252.266pt x 134.13074pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [122 <./images/report_5.png>] [123 <./images/report_3.png>]
+(./8_quick_guide_graphics_withoutXpose_body.tex
+<images/graphs_1.jpg, id=1361, 902.6222pt x 353.82187pt>
+File: images/graphs_1.jpg Graphic file (type jpg)
+
+<use images/graphs_1.jpg>
+Package pdftex.def Info: images/graphs_1.jpg used on input line 31.
+(pdftex.def)             Requested size: 270.78874pt x 106.14737pt.
+
+<images/graphs_3.jpg, id=1362, 392.21532pt x 452.4403pt>
+File: images/graphs_3.jpg Graphic file (type jpg)
+
+<use images/graphs_3.jpg>
+Package pdftex.def Info: images/graphs_3.jpg used on input line 36.
+(pdftex.def)             Requested size: 176.49525pt x 203.59625pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[124
+
+ <./images/graphs_1.jpg>]
+<images/graphs_2.jpg, id=1372, 645.16031pt x 493.0922pt>
+File: images/graphs_2.jpg Graphic file (type jpg)
+
+<use images/graphs_2.jpg>
+Package pdftex.def Info: images/graphs_2.jpg used on input line 52.
+(pdftex.def)             Requested size: 290.31944pt x 221.88943pt.
+
+Overfull \hbox (1.03313pt too wide) in paragraph at lines 63--66
+[]\OT1/ppl/m/n/10 Afrter send-ing the script to R GUI, it will be opened there,
+ where
+ []
+
+<images/graphs_4.jpg, id=1374, 902.6222pt x 353.82187pt>
+File: images/graphs_4.jpg Graphic file (type jpg)
+
+<use images/graphs_4.jpg>
+Package pdftex.def Info: images/graphs_4.jpg used on input line 69.
+(pdftex.def)             Requested size: 270.78874pt x 106.14737pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[125 <./images/graphs_3.jpg>]
+Overfull \hbox (8.82379pt too wide) in paragraph at lines 82--90
+[]\OT1/ppl/m/n/10 Script files are lo-cated ei-ther in the user folder (e.g. C:
+$\OMS/zplm/m/n/10 n$\OT1/ppl/m/n/10 Documents
+ []
+
+
+Overfull \hbox (6.6241pt too wide) in paragraph at lines 82--90
+\OT1/ppl/m/n/10 folder (e.g. C:$\OMS/zplm/m/n/10 n$\OT1/ppl/m/n/10 Program File
+s$\OMS/zplm/m/n/10 n$\OT1/ppl/m/n/10 Pirana). The or-ga-ni-za-tion of scripts
+ []
+
+<images/graphs_6.jpg, id=1384, 909.3975pt x 349.305pt>
+File: images/graphs_6.jpg Graphic file (type jpg)
+
+<use images/graphs_6.jpg>
+Package pdftex.def Info: images/graphs_6.jpg used on input line 101.
+(pdftex.def)             Requested size: 272.82135pt x 104.7923pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/graphs_7.jpg, id=1385, 494.59781pt x 295.85532pt>
+File: images/graphs_7.jpg Graphic file (type jpg)
+
+<use images/graphs_7.jpg>
+Package pdftex.def Info: images/graphs_7.jpg used on input line 106.
+(pdftex.def)             Requested size: 247.2983pt x 147.92729pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [126 <./images/graphs_2.jpg>] [127 <./images/graphs_4.jpg> <./images/graphs_6
+.jpg> <./images/graphs_7.jpg>] (./1_quick_guide_vpc_body.tex
+<images/vpc_1.jpg, id=1400, 722.7pt x 307.1475pt>
+File: images/vpc_1.jpg Graphic file (type jpg)
+ <use images/vpc_1.jpg>
+Package pdftex.def Info: images/vpc_1.jpg used on input line 22.
+(pdftex.def)             Requested size: 289.07487pt x 122.85681pt.
+
+[128
+
+ <./images/vpc_1.jpg>]
+<images/vpc_2.jpg, id=1409, 594.72188pt x 469.00218pt>
+File: images/vpc_2.jpg Graphic file (type jpg)
+ <use images/vpc_2.jpg>
+Package pdftex.def Info: images/vpc_2.jpg used on input line 43.
+(pdftex.def)             Requested size: 237.88454pt x 187.59755pt.
+
+<images/vpc_3.jpg, id=1411, 370.38374pt x 128.73094pt>
+File: images/vpc_3.jpg Graphic file (type jpg)
+ <use images/vpc_3.jpg>
+Package pdftex.def Info: images/vpc_3.jpg used on input line 56.
+(pdftex.def)             Requested size: 185.1914pt x 64.3653pt.
+
+[129 <./images/vpc_2.jpg> <./images/vpc_3.jpg>]
+<images/vpc_4.jpg, id=1420, 694.09312pt x 187.45032pt>
+File: images/vpc_4.jpg Graphic file (type jpg)
+ <use images/vpc_4.jpg>
+Package pdftex.def Info: images/vpc_4.jpg used on input line 77.
+(pdftex.def)             Requested size: 242.93623pt x 65.60858pt.
+
+Overfull \hbox (2.89381pt too wide) in paragraph at lines 83--84
+[]\OT1/ppl/m/n/10 Select the model for which the VPC was ex-e-cuted. (Fig-ure [
+]10.52[]). 
+ []
+
+<images/vpc_5.jpg, id=1422, 754.31813pt x 338.01282pt>
+File: images/vpc_5.jpg Graphic file (type jpg)
+ <use images/vpc_5.jpg>
+Package pdftex.def Info: images/vpc_5.jpg used on input line 89.
+(pdftex.def)             Requested size: 301.72191pt x 135.20271pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.41425pt too wide) in paragraph at lines 97--100
+[]\OT1/ppl/m/n/10 Next, ar-gu-ments for the Xpose.VPC may be added (Fig-ure []1
+0.39[],
+ []
+
+[130 <./images/vpc_4.jpg>]
+<images/vpc_6.jpg, id=1434, 423.08063pt x 380.92313pt>
+File: images/vpc_6.jpg Graphic file (type jpg)
+ <use images/vpc_6.jpg>
+Package pdftex.def Info: images/vpc_6.jpg used on input line 122.
+(pdftex.def)             Requested size: 169.22925pt x 152.36655pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/vpc_7.jpg, id=1435, 447.17062pt x 410.2828pt>
+File: images/vpc_7.jpg Graphic file (type jpg)
+ <use images/vpc_7.jpg>
+Package pdftex.def Info: images/vpc_7.jpg used on input line 128.
+(pdftex.def)             Requested size: 178.86507pt x 164.11021pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [131 <./images/vpc_5.jpg>] [132 <./images/vpc_6.jpg> <./images/vpc_7.jpg>]
+(./6_quick_guide_Xpose_graphics_body.tex
+<images/xpose_1.JPG, id=1449, 754.31813pt x 338.01282pt>
+File: images/xpose_1.JPG Graphic file (type jpg)
+
+<use images/xpose_1.JPG>
+Package pdftex.def Info: images/xpose_1.JPG used on input line 33.
+(pdftex.def)             Requested size: 241.38673pt x 108.1663pt.
+
+<images/xpose_2.jpg, id=1451, 478.78876pt x 377.91188pt>
+File: images/xpose_2.jpg Graphic file (type jpg)
+
+<use images/xpose_2.jpg>
+Package pdftex.def Info: images/xpose_2.jpg used on input line 39.
+(pdftex.def)             Requested size: 215.45294pt x 170.05876pt.
+ [133
+
+ <./images/xpose_1.JPG>]
+Overfull \hbox (0.1242pt too wide) in paragraph at lines 42--44
+[]\OT1/ppl/m/n/10 From the \OT1/ppl/m/it/10 Com-mands menu \OT1/ppl/m/n/10 (red
+ square), \OT1/ppl/m/it/10 mul-ti-ple \OT1/ppl/m/n/10 Xpose plots may
+ []
+
+<images/xpose_3.jpg, id=1461, 725.71124pt x 395.97937pt>
+File: images/xpose_3.jpg Graphic file (type jpg)
+
+<use images/xpose_3.jpg>
+Package pdftex.def Info: images/xpose_3.jpg used on input line 59.
+(pdftex.def)             Requested size: 290.27936pt x 158.38895pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[134 <./images/xpose_2.jpg>]) [135 <./images/xpose_3.jpg>]
+(./5_quick_guide_convertingODEs_body.tex
+Overfull \hbox (0.2342pt too wide) in paragraph at lines 16--19
+\OT1/ppl/m/n/10 block, these may be con-verted to R/de-S-olve, Berke-ley Madonn
+a
+ []
+
+
+Overfull \hbox (5.67401pt too wide) in paragraph at lines 19--22
+[]\OT1/ppl/m/n/10 This can be done by se-lect-ing a model, ac-cess-ing the righ
+t-mouse-
+ []
+
+
+Overfull \hbox (1.77385pt too wide) in paragraph at lines 25--31
+[]\OT1/ppl/m/n/10 Pirana will au-to-mat-i-cally ex-tract pa-ram-e-ter val-ues a
+nd use them
+ []
+
+<images/ODE_1.jpg, id=1477, 599.23875pt x 328.97906pt>
+File: images/ODE_1.jpg Graphic file (type jpg)
+ <use images/ODE_1.jpg>
+Package pdftex.def Info: images/ODE_1.jpg used on input line 41.
+(pdftex.def)             Requested size: 239.69125pt x 131.5893pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/ODE_2.jpg, id=1478, 444.91219pt x 492.33937pt>
+File: images/ODE_2.jpg Graphic file (type jpg)
+ <use images/ODE_2.jpg>
+Package pdftex.def Info: images/ODE_2.jpg used on input line 47.
+(pdftex.def)             Requested size: 222.45554pt x 246.16907pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/ODE_3.jpg, id=1479, 444.91219pt x 492.33937pt>
+File: images/ODE_3.jpg Graphic file (type jpg)
+ <use images/ODE_3.jpg>
+Package pdftex.def Info: images/ODE_3.jpg used on input line 53.
+(pdftex.def)             Requested size: 222.45554pt x 246.16907pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/ODE_4.jpg, id=1480, 400.49625pt x 414.79968pt>
+File: images/ODE_4.jpg Graphic file (type jpg)
+ <use images/ODE_4.jpg>
+Package pdftex.def Info: images/ODE_4.jpg used on input line 59.
+(pdftex.def)             Requested size: 160.19566pt x 165.91693pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [136
+
+] [137 <./images/ODE_1.jpg> <./images/ODE_2.jpg>] [138 <./images/ODE_3.jpg> <./
+images/ODE_4.jpg>] (./9_quick_guide_psn_body.tex
+Underfull \hbox (badness 2088) in paragraph at lines 19--19
+\OT1/ppl/m/n/10 of model es-ti-ma-tions, step-wise co-vari-ate mod-el-ing, log-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+
+ []
+
+<images/psn_conf.png, id=1501, 518.93875pt x 445.665pt>
+File: images/psn_conf.png Graphic file (type png)
+
+<use images/psn_conf.png>
+Package pdftex.def Info: images/psn_conf.png used on input line 41.
+(pdftex.def)             Requested size: 207.57182pt x 178.26283pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[139
+
+] <images/psn_dialog.png, id=1508, 743.77875pt x 555.07375pt>
+File: images/psn_dialog.png Graphic file (type png)
+
+<use images/psn_dialog.png>
+Package pdftex.def Info: images/psn_dialog.png used on input line 65.
+(pdftex.def)             Requested size: 297.50623pt x 222.02556pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (4.07489pt too wide) in paragraph at lines 81--86
+[]\OT1/ppl/m/n/10 To this com-mand you can add ar-gu-ments that you re-quire. M
+any
+ []
+
+[140 <./images/psn_conf.png>]
+<images/psn_run.png, id=1514, 510.40688pt x 259.7203pt>
+File: images/psn_run.png Graphic file (type png)
+
+<use images/psn_run.png>
+Package pdftex.def Info: images/psn_run.png used on input line 88.
+(pdftex.def)             Requested size: 204.15913pt x 103.88628pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[141 <./images/psn_dialog.png>]
+<images/psn_defaults.png, id=1521, 730.73pt x 700.6175pt>
+File: images/psn_defaults.png Graphic file (type png)
+
+<use images/psn_defaults.png>
+Package pdftex.def Info: images/psn_defaults.png used on input line 124.
+(pdftex.def)             Requested size: 292.28682pt x 280.24203pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/psn_data_stats.png, id=1522, 744.7825pt x 556.0775pt>
+File: images/psn_data_stats.png Graphic file (type png)
+
+<use images/psn_data_stats.png>
+Package pdftex.def Info: images/psn_data_stats.png used on input line 141.
+(pdftex.def)             Requested size: 297.90771pt x 222.42705pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[142 <./images/psn_run.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+ [143 <./images/psn_defaults.png>] [144 <./images/psn_data_stats.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+ (./manual_booklet.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package rerunfilecheck Info: File `manual_booklet.out' has not changed.
+(rerunfilecheck)             Checksum: 5894890943D8661D49BC757CA4D024AB;5158.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+ )
+(\end occurred inside a group at level 4)
+
+### simple group (level 4) entered at line 580 ({)
+### simple group (level 3) entered at line 522 ({)
+### simple group (level 2) entered at line 382 ({)
+### simple group (level 1) entered at line 220 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 9064 strings out of 494522
+ 136097 string characters out of 6167205
+ 267662 words of memory out of 5000000
+ 11478 multiletter control sequences out of 15000+600000
+ 48136 words of font info for 122 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 32i,12n,49p,1054b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014basic/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/ty
+pe1/public/mathpazo/fplmr.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/ty
+pe1/public/mathpazo/fplmri.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb>
+Output written on manual_booklet.pdf (145 pages, 4764148 bytes).
+PDF statistics:
+ 1707 PDF objects out of 1728 (max. 8388607)
+ 1432 compressed objects within 15 object streams
+ 590 named destinations out of 1000 (max. 500000)
+ 1011 words of extra memory for PDF output out of 10000 (max. 10000000)
+

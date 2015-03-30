@@ -1,0 +1,44 @@
+
+    Perl speaks NONMEM.
+
+    Listing of PsN scripts.
+
+[ -h | -? ] [ --help ]
+    [ --bootstrap ]
+    [ --cdd ]
+    [ --create_cont_data ]
+    [ --create_extra_data_model ]
+    [ --create_subsets ]
+    [ --data_stats ]
+    [ --execute ]
+    [ --extended_grid ]
+    [ --llp ]
+    [ --mcmp ]
+    [ --nm_versions ]
+    [ --nonpb ]
+    [ --npc ]
+    [ --pind ]
+    [ --psn_options ]
+    [ --runrecord ]
+    [ --scm ]
+    [ --se_of_eta ]
+    [ --single_valued_columns ]
+    [ --sse ]
+    [ --sumo ]
+    [ --unwrap_data ]
+    [ --update_inits ]
+    [ --vpc ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled using '-no-option', for example -no-handle_crashes.
+    Use 'psn -help' for a longer description.
+
+    Use 'psn -h "scriptname"' for a one-line description of a script,
+    for example 'psn -h sse'.
+
+    Use '"scriptname" -help' for details on a particular script,
+    for example 'sse -help'. Exception is -nm_versions which is only
+    an option to this program, see 'psn -h nm_versions'.
+
+    Use 'psn_options -h' for a list of common options to PsN.
+

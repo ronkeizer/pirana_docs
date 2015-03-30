@@ -1,0 +1,33 @@
+
+  npc
+
+    Numerical Predictive Check.
+
+
+[ -h | -? ] [ --help ]
+    [ --censor='string' ]
+    [ --confidence_interval='integer' ]
+    [ --covariance_file='string' ]
+    [ --dv='string' ]
+    [ --flip_comments! ]
+    [ --keep_estimation! ]
+    [ --lst_file='string' ]
+    [ --msfo_file='string' ]
+    [ --n_simulation_models='integer' ]
+    [ --no_of_strata='integer' ]
+    [ --noprediction ]
+    [ --offset_rawres='integer' ]
+    [ --orig_table='string' ]
+    [ --rawres_input='string' ]
+      --samples='integer'
+    [ --sim_model='string' ]
+    [ --sim_table='string' ]
+    [ --stratify_on='string' ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'npc -help' for a longer description.
+
+    Also see 'psn_options -h' for a description of PsN common options.
+

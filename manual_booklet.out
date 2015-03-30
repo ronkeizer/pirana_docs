@@ -1,0 +1,75 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Pirana installation}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Required / recommended software}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Installation}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Installation procedure on Windows}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{Installation procedure on Mac OS X}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.3}{Installation procedure on Linux}{section.2.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Installation of license file}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Configuration}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{Configuration for modeling groups}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Using Pirana}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.1.1}{Basic functions}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.2}{Model management}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.3}{Projects}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.4}{Data files}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{Working with NONMEM}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{Managing NONMEM installations}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Setting environment variables}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.3}{Running models}{section.3.2}% 20
+\BOOKMARK [1][-]{section.3.3}{Analyzing results \046 output}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.1}{Main overview}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.2}{Parameter estimates}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.3}{Run Reports}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.4}{Intermediate results}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.5}{Run Records}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.6}{Data Inspector}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.7}{Visual run records}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.8}{R scripting for creating graphs and file processing}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.9}{Xpose support}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.10}{Wizards}{section.3.3}% 31
+\BOOKMARK [1][-]{section.3.4}{Model translation}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.5}{Batch operations}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.6}{Miscellaneous functionality}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.7}{Conventions and Methods}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.8}{Keyboard shortcuts}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.9}{Command line parameters}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.10}{Troubleshooting / FAQ}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.11}{Monolix}{chapter.3}% 39
+\BOOKMARK [0][-]{chapter.4}{Pirana and clusters}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Clusters}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.1.1}{Method 1: Server-based installation}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.2}{Method 2: Local installation}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{Interaction with job schedulers}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.2.1}{Working with the SGE}{section.4.2}% 45
+\BOOKMARK [1][-]{section.4.3}{Working with PCluster}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Automated modeling workflow in Pirana}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Background}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{Tutorial}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{cPirana}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Installing cPirana}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.1.1}{Starting cPirana}{section.6.1}% 52
+\BOOKMARK [0][-]{chapter.7}{Validation}{}% 53
+\BOOKMARK [1][-]{section.7.1}{Pirana validation tool}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.2}{PsN validation tool}{chapter.7}% 55
+\BOOKMARK [0][-]{chapter.8}{Endnotes}{}% 56
+\BOOKMARK [1][-]{section.8.1}{Acknowledgements}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.2}{Bug reporting / suggestions}{chapter.8}% 58
+\BOOKMARK [1][-]{section.8.3}{Disclaimer}{chapter.8}% 59
+\BOOKMARK [0][-]{chapter.9}{Tutorial: Pirana, PsN \046 Xpose}{}% 60
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.2}{Background}{chapter.9}% 62
+\BOOKMARK [1][-]{section.9.3}{Tutorial}{chapter.9}% 63
+\BOOKMARK [1][-]{section.9.4}{Conclusion}{chapter.9}% 64
+\BOOKMARK [0][-]{chapter.10}{Quick Guides}{}% 65
+\BOOKMARK [1][-]{section.10.1}{Quick Guide: Configuring Pirana }{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.2}{Quick Guide: Setting up NONMEM in Pirana}{chapter.10}% 67
+\BOOKMARK [1][-]{section.10.3}{Quick Guide: Setting up cluster connections}{chapter.10}% 68
+\BOOKMARK [1][-]{section.10.4}{Quick Guide: Working with models}{chapter.10}% 69
+\BOOKMARK [1][-]{section.10.5}{Quick Guide: Creating reports}{chapter.10}% 70
+\BOOKMARK [1][-]{section.10.6}{Quick Guide: Graphical output in R}{chapter.10}% 71
+\BOOKMARK [1][-]{section.10.7}{Quick Guide: Creating a VPC}{chapter.10}% 72
+\BOOKMARK [1][-]{section.10.8}{Quick Guide: Using Xpose from Pirana }{chapter.10}% 73
+\BOOKMARK [1][-]{section.10.9}{Quick Guide: Translating NM-TRAN }{chapter.10}% 74
+\BOOKMARK [1][-]{section.10.10}{Quick Guide: Using PsN from Pirana}{chapter.10}% 75

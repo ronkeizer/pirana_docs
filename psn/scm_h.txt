@@ -1,0 +1,35 @@
+
+  scm
+
+  Stepwise covariate model building from NONMEM models.
+
+  Usage:
+
+[ -h | -? ] [ --help ]
+      --config_file='string'
+    [ --do_not_drop='string' ]
+    [ --epsilon! ]
+    [ --error='string' ]
+    [ --foce! ]
+    [ --global_init='string' ]
+    [ --gof='string' ]
+    [ --linearize! ]
+    [ --logfile='string' ]
+    [ --lst_file='string' ]
+    [ --max_steps='integer' ]
+    [ --model='string' ]
+    [ --noabort! ]
+    [ --only_successful! ]
+    [ --p_backward='string' ]
+    [ --p_forward='string' ]
+    [ --p_value='string' ]
+    [ --parallel_states! ]
+    [ --search_direction='forward|backward|both' ]
+    [ --update_derivatives! ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'scm -help' for a longer description.
+    Also see 'psn_options -h' for a description of common options.
+

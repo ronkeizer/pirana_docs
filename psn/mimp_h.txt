@@ -1,0 +1,21 @@
+
+  mimp
+
+    Multiple imputation using PsN.
+
+
+[ -h | -? ] [ --help ]
+     [ --alt_models='string' ]
+       --base_model='string'
+     [ --chain_models='string' ]
+     [ --imputations='integer' ]
+       --mi_model='string'
+       --reg_model='string'
+     [ --samples='integer' ]
+     [ --sim_model='string' ]
+     
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'mimp -help' for a longer description.
+

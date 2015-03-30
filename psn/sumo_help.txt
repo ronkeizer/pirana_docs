@@ -1,0 +1,171 @@
+
+  sumo
+    sumo
+
+    Perl script for summarizing output data. 
+    It gathers some useful information from NONMEM output files and prints
+    a summary to screen.
+
+
+
+
+
+ Options:
+
+    The options are given here in their long form. Any option may be
+    abbreviated to any nonconflicting prefix. 
+    
+    The following options are valid:
+
+    -c_level='integer'
+    Default 95
+
+    This option specifies the coverage of the confidence interval
+    computed by the -ci option (see below). Allowed values are 90, 95,
+    99 and 99.5
+
+    -check_run
+    Default set
+
+    If this option is unset with -no-check_run the initial run diagnostic output of sumo
+    will be suppressed.
+
+
+    -condition_number_limit='number'
+    Default 1000
+
+    The cut-off for issuing a warning for a high condition number. The
+    test will only be made if the $COV step has been requested in the
+    NMtran control stream and NONMEM has been asked to report
+    eigenvalues ($COV PRINT=E).
+
+
+      -confidence_interval|ci
+
+      No help available for 'confidence_interval|ci'
+
+    -correlation_limit='number'
+    Default 0.9
+
+    The cut-off for issuing a warning for high correlations between
+    the parameter estimates. This test will only be made if the $COV
+    step has been requested in the NMtran control stream.
+
+
+    -csv
+    Default not set
+
+    Produce output in which the columns of the parameters estimates
+    and standard errors are comma separated. This option can be used
+    if you wish to import the sumo output into a spreadsheet programs,
+    such as MS Excel. (Something like this is probably what you would
+    want to do in that case: sumo -csv run1.lst > sumooutput.csv)
+
+
+    -debug='integer'
+    Default 0
+
+    This is mainly for developers who wish to debug PsN. By default
+    'integer' is zero but you can try setting it to '1' and you might
+    get some helpful warnings. If you run in to problems that require
+    support, you might be told to crank this number up and send the
+    output to us.
+
+    -debug_package='string'
+    Default not set
+
+    Mostly for developers.
+
+    -debug_subroutine='string'
+    Default not set
+    
+    Only for developers.
+
+
+    -help
+      
+    With -help sumo will print this, longer, help message.
+
+    -h | -?
+      
+    With -h or -? sumo will print a list of options and exit.
+
+    -large_omega_cv_limit='number'
+    Default 0.50
+
+    When the CV (SE/estimate) for a parameter estimates is greater
+    than this a warning will be issued.
+
+
+    -large_sigma_cv_limit='number'
+    Default 0.30
+
+    When the CV (SE/estimate) for a parameter estimates is greater
+    than this a warning will be issued.
+
+
+    -large_theta_cv_limit='number'
+    Default 0.30
+
+    When the CV (SE/estimate) for a parameter estimates is greater
+    than this a warning will be issued.
+
+    -max_problem_num='integer'
+    Default 1
+
+    PsN divides NONMEM output into problems and sub-problems. 
+    The default is for sumo to report the results for the first
+    $PROBLEM only.
+
+
+    -max_subproblem_num='integer'
+    Default 1
+
+    PsN divides NONMEM output into problems and sub-problems. 
+    The default is for sumo to report the results for the first
+    subproblem only.
+
+
+    -near_bound_sign_digits='integer'
+    Default 2
+
+    When a parameter estimates is equal to a boundary with these many
+    significant digits, a warning will be issued. The default is for
+    NONMEM VI to report if parameter estimates are close to a boundary
+    value but this can be turned off. The boundary test in sumo is
+    independent of the way NONMEM is configured and will report these
+    types of issues in output from NONMEM.
+
+
+    -near_zero_boundary_limit='number'
+    Default 0.001
+
+    If the bound is 0, the boundary test will issue a warning if the
+    estimate is this close to zero.
+
+
+    -precision='integer'
+    Default 4
+
+    Output precision.
+
+    -sd_rse
+    Default set
+
+    If sd_rse is not set sumo will report the relative standard errors for the
+    random effects parameters (omega and sigma) on the variance scale
+    (SE/variance estimate). If sd_rse is set, sumo will report these
+    on the (approximate) standard deviation scale: (SE/variance
+    estimate)/2.
+
+
+    -sign_digits_off_diagonals='integer' 
+    Default 2
+
+    The boundary test for off-diagonal omega elements are performed by
+    first converting the covariances to the corresponding correlations
+    and then check if they are close to +/-1 with this many
+    significant digits.
+
+
+

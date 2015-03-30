@@ -1,0 +1,37 @@
+
+  parallel_retries
+
+    Running a modelfile with multiple sets of tweaked initial estimates.
+    The program takes the same input as execute, see execute -h, except
+    that -min_retries is required and only a single input model can be used.
+
+
+
+
+
+
+      -model_dir_name
+
+      No help available for 'model_dir_name'
+
+      -prepend_model_to_lst
+
+      No help available for 'prepend_model_to_lst'
+
+      -prepend_options_to_lst
+
+      No help available for 'prepend_options_to_lst'
+
+      -tail_output
+
+      No help available for 'tail_output'
+
+      -wintail_command
+
+      No help available for 'wintail_command'
+
+      -wintail_exe
+
+      No help available for 'wintail_exe'
+
+

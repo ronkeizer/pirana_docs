@@ -1,0 +1,56 @@
+
+  ebe_npde
+
+    Generate ranked empirical Bayes estimates
+
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -thr, but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -estimate_input
+
+      Default set. By default, PsN will rerun the input model to get parameter 
+      estimates unless an output file is found or option -lst_file is set. But 
+      if option -estimate_input is unset with -no-estimate_input and no lst-file 
+      is found then the parameter estimates set in the input model will be used
+      for simulations.
+
+      -gls_data_file=filename
+
+      Default gls_data.dta. A file with input data for the gls program is always 
+      generated. This option changes the name of that file. After this file is 
+      created, the gls program can be run with option -gls_model and -ind_shrinkage 
+      with minimum runtime, see gls_userguide.pdf
+
+      -lst_file=filename
+
+      Default not set. By default PsN will, before copying the input model to the 
+      simulation models, look for an output file with final estimates for the input 
+      model and if found update the initial estimates in the simulation models. If 
+      option -lst_file is set Psn will instead use the final estimates in the given 
+      file. If option is not set and no output file is found PsN will not update the 
+      estimates but instead rerun the input model, if option -estimate_input is set.
+
+      -reminimize
+
+      Default not set. By default, simulated datasets will be run with MAXEVAL=0 
+      (or equivalent for non-classical estimation methods). If option -reminimize 
+      is set then $EST will be the same as in the input model.
+
+      -samples=N
+
+      Default 300. The number of simulations and reestimations to perform.
+
+    Also see 'psn_options -h' for a description of common PsN options.
+

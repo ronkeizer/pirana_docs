@@ -1,0 +1,62 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {chapter}{\numberline {2}Pirana installation}{5}
+\contentsline {section}{\numberline {2.1}Required / recommended software}{5}
+\contentsline {section}{\numberline {2.2}Installation}{6}
+\contentsline {subsection}{\numberline {2.2.1}Installation procedure on Windows}{6}
+\contentsline {subsection}{\numberline {2.2.2}Installation procedure on Mac OS X}{6}
+\contentsline {subsection}{\numberline {2.2.3}Installation procedure on Linux}{6}
+\contentsline {section}{\numberline {2.3}Installation of license file}{8}
+\contentsline {section}{\numberline {2.4}Configuration}{8}
+\contentsline {section}{\numberline {2.5}Configuration for modeling groups}{10}
+\contentsline {subsubsection}{Configuration files location}{10}
+\contentsline {chapter}{\numberline {3}Using Pirana}{12}
+\contentsline {section}{\numberline {3.1}Overview}{12}
+\contentsline {subsection}{\numberline {3.1.1}Basic functions}{12}
+\contentsline {subsection}{\numberline {3.1.2}Model management}{13}
+\contentsline {subsection}{\numberline {3.1.3}Projects}{15}
+\contentsline {subsection}{\numberline {3.1.4}Data files}{15}
+\contentsline {section}{\numberline {3.2}Working with NONMEM}{16}
+\contentsline {subsection}{\numberline {3.2.1}Managing NONMEM installations}{16}
+\contentsline {subsection}{\numberline {3.2.2}Setting environment variables}{16}
+\contentsline {subsection}{\numberline {3.2.3}Running models}{18}
+\contentsline {subsubsection}{Using PsN}{20}
+\contentsline {section}{\numberline {3.3}Analyzing results \& output}{22}
+\contentsline {subsection}{\numberline {3.3.1}Main overview}{22}
+\contentsline {subsection}{\numberline {3.3.2}Parameter estimates}{22}
+\contentsline {subsection}{\numberline {3.3.3}Run Reports}{23}
+\contentsline {subsection}{\numberline {3.3.4}Intermediate results}{24}
+\contentsline {subsection}{\numberline {3.3.5}Run Records}{25}
+\contentsline {subsection}{\numberline {3.3.6}Data Inspector}{26}
+\contentsline {subsection}{\numberline {3.3.7}Visual run records}{27}
+\contentsline {subsection}{\numberline {3.3.8}R scripting for creating graphs and file processing}{27}
+\contentsline {subsection}{\numberline {3.3.9}Xpose support}{29}
+\contentsline {subsection}{\numberline {3.3.10}Wizards}{30}
+\contentsline {section}{\numberline {3.4}Model translation}{31}
+\contentsline {section}{\numberline {3.5}Batch operations}{32}
+\contentsline {section}{\numberline {3.6}Miscellaneous functionality}{33}
+\contentsline {section}{\numberline {3.7}Conventions and Methods}{37}
+\contentsline {subsubsection}{Model file conventions}{37}
+\contentsline {section}{\numberline {3.8}Keyboard shortcuts}{38}
+\contentsline {section}{\numberline {3.9}Command line parameters}{39}
+\contentsline {section}{\numberline {3.10}Troubleshooting / FAQ}{40}
+\contentsline {section}{\numberline {3.11}Monolix}{42}
+\contentsline {chapter}{\numberline {4}Pirana and clusters}{43}
+\contentsline {section}{\numberline {4.1}Clusters}{43}
+\contentsline {subsection}{\numberline {4.1.1}Method 1: Server-based installation}{43}
+\contentsline {subsection}{\numberline {4.1.2}Method 2: Local installation}{44}
+\contentsline {section}{\numberline {4.2}Interaction with job schedulers}{45}
+\contentsline {subsection}{\numberline {4.2.1}Working with the SGE}{46}
+\contentsline {section}{\numberline {4.3}Working with PCluster}{46}
+\contentsline {chapter}{\numberline {5}Automated modeling workflow in Pirana}{47}
+\contentsline {section}{\numberline {5.1}Background}{47}
+\contentsline {section}{\numberline {5.2}Tutorial}{47}
+\contentsline {chapter}{\numberline {6}cPirana}{54}
+\contentsline {section}{\numberline {6.1}Installing cPirana}{55}
+\contentsline {subsection}{\numberline {6.1.1}Starting cPirana}{55}
+\contentsline {chapter}{\numberline {7}Validation}{57}
+\contentsline {section}{\numberline {7.1}Pirana validation tool}{58}
+\contentsline {section}{\numberline {7.2}PsN validation tool}{59}
+\contentsline {chapter}{\numberline {8}Endnotes}{60}
+\contentsline {section}{\numberline {8.1}Acknowledgements}{60}
+\contentsline {section}{\numberline {8.2}Bug reporting / suggestions}{60}
+\contentsline {section}{\numberline {8.3}Disclaimer}{60}

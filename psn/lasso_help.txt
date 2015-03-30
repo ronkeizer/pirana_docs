@@ -1,0 +1,82 @@
+
+  lasso
+
+    LASSO method for covariate model selection.
+
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -thr, but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -convergence
+
+    The convergence criterion.
+    'REACHMAX' Stop when program reaches max (stop_t), then best t-value is selected.
+    'FIRSTMIN' Stop when predicted ofv increases from previous value (or when stop_t is reached)
+    'HALT' Stop when program crashes or when one model cannot terminate.
+    The best value until this point is selected
+
+      -cutoff=X
+
+    The theta cutoff.
+
+      -groups=N
+
+    The number of validation groups.
+
+      -lst_file=filename
+
+    Name of lst-file for input model if other than same name with lst-extension.
+
+      -pred_ofv_start_t=X
+
+    Total predicted ofv of model at t=start_t.
+
+      -relations
+
+    The parameter-covariate pairs to test and the parameterizations to use.
+    The parameterizations are: 1)linear assuming categorical covariate, 
+    2)linear assuming continuous covariate, 
+    3)piece-wise linear (hockey-stick)
+
+    The syntax is sensitive and must follow this form.
+    Note colons, commas. There must be no spaces in the list of relations.
+    There are double commas before a new parameter.
+    It is optional to input the breakpoint for the piece-wise linear 
+    relation (3), the number is then set after a second dash (-)
+    as in WGT-3-45.2
+
+    -relations=CL:WGT-2,SEX-1,RACE-1,,V:WGT-3-45.2,,KA:WGT-3,APGR-2
+
+
+      -start_t=X
+
+    The t-value to start at.
+
+      -step_t=X
+
+    The steplength for LASSO. The steplength can be negative.
+
+      -stop_t=X
+
+    The t-value to end at.
+
+      -stratify_on=variable
+
+    PsN will try to preserve the relative proportions of individuals
+    with different values of the stratification variable
+    when creating data subsets during crossvalidation.
+    The stratification variable must be found in the original dataset.
+
+    Also see 'psn_options -h' for a description of common PsN options.
+

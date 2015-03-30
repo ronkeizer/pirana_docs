@@ -1,0 +1,77 @@
+
+update_inits
+    Update NONMEM modelfile initial estimates of theta, omega and sigma
+    using final estimates from lst-file or initial estimates from other modelfile.
+    Only works when single problem in modelfile.
+
+Example: (modify file old.mod and copy original to old.mod.org):    
+    update_inits old.mod old.lst
+
+OR (create new file new.mod):
+    update_inits old.mod old_output.lst -output_model=new.mod
+
+OR (assume there exists an lst-file with name myModel.lst ):
+    update_inits myModel.mod -output_model=new.mod
+
+OR (copy estimates from modelfile instead of lst-file, modify old.mod):
+    update_inits old.mod -from_model=other.mod -extra_records=PK,DATA
+
+Required input: The name of a modelfile.
+
+Optional input: 
+<lst-filename>              The name of the lst-file to read final estimates from.
+                            Cannot be used together with option -from_model.
+
+-from_model=<filename>      The name of the modelfile to copy records from. 
+                            Cannot be used together with lst-file input.
+
+-output_model=<filename>    The name of the modelfile to create. If omitted, a copy of
+                            the original modelfile with extension .org is created, and 
+                            the original file is modified.
+
+-extra_records=rec1,rec2    A comma-separated list of record names without $. Additional
+                            records to replace, e.g. DATA.
+
+-ignore_missing_parameters  Do not require 1-1 matching of parameter names and indexes.
+
+-sigdig=N                   Only has effect with NONMEM7 and later and if N<15. Print parameter
+                            estimates with this many significant digits in the new model file.
+
+-renumber=<new number>      All words in $TABLE records that end with tab<any number> 
+                            will get <any number> replaced by <new number>, provided 
+			    that <new number> is not 0.
+			    If <filename> in MSFO=<filename> in the  $ESTIMATION record
+			    ends with a number, that number will be replaced by <new number>.
+			    MSFO may not be abbreviated.
+			    If the input modelfile name is runX.mod and -output_model is runY.mod
+			    where both X and Y are numbers then -renumber=Y will be set automatically.
+			    Set option -renumber=0 to prevent renumbering in such a case.
+
+-comment=<comment>          If the option is used, a new line with <comment> will be inserted 
+                            directly following the $PROBLEM row.
+			    The comment must be enclosed with quotes if it contains spaces.
+
+-add_tags                   Add all runrecord tags. update_inits will not check if any tags 
+                            are already present.
+
+-degree=X                   After updating the initial estimates in the output file, randomly
+                            perturb them by degree=X, i.e. change estimate to a value
+			    randomly chosen in the range estimate +/- estimate*X while
+			    respecting upper and lower boundaries, if set.
+			    Degree is set to 0.1 when tweak_inits is set in execute.
+
+-based_on=<run_number>      If the Based on tag is present in the modelfile, or if option 
+                            -add_tags is used, update_inits will by default try to extract 
+			    a run number from the original modelfile name and set the 
+			    Based on tag for runrecord to that number. If a number cannot 
+			    be extracted then nothing will be set. If the -based_on option 
+			    is used, update_inits will set the tag to that number.
+
+-add_prior=df               Add $PRIOR NWPRI based on output object. Will automatically read
+                            estimates and covariances from output and use them to define the 
+			    prior. df should be the degrees of freedom, a comma-separated list
+			    with one integer per omega block.
+			    This feature is highly experimental, and you must check $PRIOR 
+			    in the new model file manually before using it.
+			    Option -add_prior cannot be used together with option -from_model. 
+

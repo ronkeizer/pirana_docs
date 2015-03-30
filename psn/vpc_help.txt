@@ -1,0 +1,257 @@
+
+  vpc
+
+    Visual Predictive Check.
+
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -t(or even -thr) but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -bin_array=x1,x2,...
+      
+      A comma-separated list of either the number of observations in each
+      bin or the boundaries between bins, depending on whether the option 
+      -bin_by_count is 1 or 0. If binning is done by count, the list 
+      must contain at least 2 numbers, otherwise 1 number is enough.
+      If used, the option -bin_by_count is required, while all other
+      binning options are forbidden.
+
+      -bin_by_count= 1 | 0
+
+      Decide whether binning should be done based on the number of 
+      observations (1) in each bin or the width of the binning interval (0).
+      Required unless only the independent variable is specified without any
+      binning options, then forbidden.
+
+      -boxcox_lambda=Y
+
+      Setting this variable indicates that data is Box-Cox transformed. 
+      Data will be transformed to normal scale for eventual prediction correction,
+      and retransformed to Box-Cox before analysis and output.
+      Option cannot be used with lnDV.
+
+      -censor=VARIABLE
+
+      Name of variable which defines whether DV or similar is missing, e.g. due to drop-out.
+      1 means the observation is censored, 0 means the observation is not censored.
+      The variable must be requestable in $TABLE.
+
+      -confidence_interval=number
+
+      An integer between 1 and 99 specifying the confidence interval in percent.
+
+      -dv=VARIABLE
+
+      Name of dependent variable. Default is DV.
+      Case sensitive, must be exactly the same case and spelling as in modelfile.
+      Maximum of 4 letters because of NONMEM limitation, unless either IPRED or IWRES.
+
+      -flip_comments
+
+      Method for handling user-defined simulation code in the model. If this option is set,
+      PsN will create the simulation model by flipping comments (commented lines will be
+      uncommented and vice versa) between the tags 
+      ;Sim_start 
+      and 
+      ;Sim_end
+      Note that the
+      tags must look exactly like that or the editing will fail. After creating
+      the simulation model PsN will remove $COV and $TABLE, change SEED, NSUBS 
+      and MAXEVAL in $SIM, and add a new $TABLE, but otherwise no changes will be made.
+
+      -idv=VARIABLE
+
+      Name of independent variable, optional, default TIME.
+      The vpc will bin the observations based on the independent 
+      variable, either on unique values of the specified variable 
+      (default), or according to selected binning options.
+
+      -keep_estimation
+      
+      Perform post-hoc evalutaion step for each simulated dataset,
+      i.e. keep the $ESTIMATION record and set MAXEVALS to 0. In this case
+      variables such as IPRED(F) are based on the re-estimated post-hoc 
+      parameters.      
+
+      -levels=level1,level2,...
+      
+      A comma-separated list of the boundaries for a categorization.
+      First category <= level1 < second category <= level2 etc.
+
+      -lloq=number
+      
+      Lower Limit Of Quantification for left censored data.
+
+      -lnDV=0, 1 or 2
+      
+      lnDV=0 is the default. PsN will not exponentiate DV values. If option -predcorr is used,
+             PsN will assume that values are on the normal scale.
+      lnDV=1 PsN exponentiates all DV values (and PRED values if these are needed)
+             before analysis (but after prediction/variability correction).
+      lnDV=2 is only allowed together with option -predcorr. PsN will assume DV and PRED are 
+             log-transformed but will not exponentiate.
+      lnDV=3 PsN log transforms all DV values (and PRED values if these are needed)
+             before analysis (and before prediction/variability correction).
+
+      -lower_bound=number or variable
+      
+      Only allowed together with option -predcorr, and when lnDV= 0 or 1. Value can be either
+      a number or an independent variable present in $INPUT or defined in the modelfile.
+
+      -lst_file=file
+
+      The vpc will update initial parameter estimates in the model to
+      the final values in the lst file. Optional parameter.
+      Cannot be used together with -msfo_file option nor with a model
+      containing a $NONPARAMETRIC record.
+
+      -mirrors=N
+
+      Generate output data for N mirror plots.
+
+      -msfo_file=file
+
+      The vpc will use the NONMEM state defined in the update file.
+      Cannot be used together with -lst_file option.
+      If the modelfile contains a $NONPARAMETRIC record this parameter
+      is required, otherwise it is optional.
+
+      -n_simulation_models=N
+
+      Default 1, which means all simulations are run in the same modelfile.
+      By setting this option to a number N greater than 1, the 'samples' simulations
+      will be split equally between N model files, which can be run in parallel.
+      This option cannot be used together with option -sim_table or, if 
+      the NONMEM version < 7, together with -dv=CWRES.
+
+      -no_of_bins=N
+
+      Number of bins of approximately equal size to create. Optional.
+      The number must be larger than 1.
+      If used, the option -bin_by_count is required, while all other
+      binning options are forbidden.
+
+      -no_of_strata=number
+
+      Only allowed together with -stratify_on.
+      An integer requesting the number of strata.
+      The number must be equal to or less than the number of unique 
+      values of the stratification variable.
+      If the number is smaller than the number of unique values, the 
+      observations will be grouped so that the number of observations in
+      each group/strata is approximately equal.
+
+      -noprediction
+      
+      Add NOPREDICTION to the $SIMULATION record of the simulation model
+      in addition to ONLYSIMULATION. This option is generally recommended
+      with likelihood models for odd type data.
+
+      -offset_rawres=N
+
+      Only relevant in combination with rawres_input. Default 1.
+      The number of result lines to skip in the input raw results file
+      before starting to read final parameter estimates. In a regular
+      bootstrap raw_results file the first line of estimates refers to the
+      input model with the full dataset, so therefore the default offset is 1.
+
+      -orig_table=file
+
+      Use an already created tablefile with original data,
+      instead of letting the program create it.
+      This option can only be used together with -sim_table.
+      A modelfile must still be given as program argument, but it will not be run.
+
+      -overlap_percent=Y
+
+      An integer specifying the percent overlap between consecutive bins. 
+      If used, the options -bin_by_count and -single_bin_size are required,
+      while all other binning options are forbidden.
+
+      -predcorr
+      
+      Perform prediction correction on dependent variable values before computing vpc results.
+      If option -varcorr is used simultaneously, prediction correction is performed first.
+
+      -rawres_input=filename
+
+      A simple way to simulate with uncertainty.
+      Instead of using identical parameter estimates for simulation of each
+      new dataset, take parameter estimates from a raw_results.csv file,
+      e.g. from a bootstrap run. The raw results file must contain
+      at least as many samples as the input -samples to vpc plus the 
+      value of option -offset_rawres, the labels
+      for THETA/OMEGA/SIGMA in the file must match the labels in the
+      simulation model given as input to sse, and the first column must have
+      header model as a bootstrap raw_results file.
+
+      Since this method requires different parameters for each sample, option 
+      n_simulation_models will be automatically set equal to samples.
+
+
+      -samples=number
+
+      Number of simulated datasets to generate, required.
+      Must be at least 20.
+
+      -sim_model=file
+
+      Use a separate input model for the simulations. PsN will remove 
+      $COV and $TABLE, change SEED, NSUBS and MAXEVAL in $SIM, and add a new $TABLE, but
+      otherwise no changes will be made to the user defined simulation model.
+
+      -sim_table=file
+
+      Use an already created tablefile with simulated data,
+      instead of letting the program run the simulations.
+      This option can only be used together with -orig_table.
+      A modelfile must still be given as program argument, but it will not be run.
+
+      -single_bin_size=X
+
+      An scalar specifying the size of individual bins. The number 
+      either specifies the number of observations in each bin or 
+      the width of the binning interval, depending on whether the 
+      option -bin_by_count is 1 or 0. If used, the option 
+      -bin_by_count is required and -overlap_percent is optional,
+      while all other binning options are forbidden.
+
+      -stratify_on=VARIABLE
+
+      Variable to stratify on. The variable must be independent, i.e. be
+      the same for all simulations of a particular observation.
+      The vpc will stratify the data on unique values of the specified
+      variable, and perform separate analyses on each set. Stratification 
+      may also be done on a user-defined parameter which must be called STRT.
+
+      -tte=VARIABLE
+
+      Assume a time-to-event type model. PsN will add the tte-variable to $TABLE
+      of the simulation model (not the original data model), and format the output
+      differently compared to a regular vpc. The value in the tte-columns should
+      be equal to 0 if there was not an event, and non-zero otherwise. 
+      Check npc_vpc_userguide.pdf for details.
+
+      -uloq=number
+      
+      Upper Limit Of Quantification for right censored data.
+
+      -varcorr
+      
+      Perform variability correction on dependent variable values before computing vpc results.
+      If option -predcorr is used simultaneously, prediction correction is performed first.
+
+
+    Also see 'psn_options -h' for a description of PsN common options.
+

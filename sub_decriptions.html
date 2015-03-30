@@ -1,0 +1,546 @@
+<HTML><HEAD><title>Piraña subroutines</title><link rel=stylesheet href='format.css' type=text/css></HEAD><BODY><TABLE><TR><TH>Subroutine</TH><TH>Purpose</TH><TH>Compat</TH><TH>Notes</TH></TR><TR><TD>sge_get_job_cwd</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>refresh_sge_monitor</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>tk_table_from_model_output</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>job_specific_information_window</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>populate_nodes_hlist</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>populate_jobs_hlist</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>sge_monitor_window</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>sge_monitor_window_old</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>dark_row_color</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>even</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>create_nm_start_script</TD><TD>Create a script (bat or sh) to start
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>write_nm_start_script</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>redraw_screen</TD><TD>Redraw the widgets on the canvas
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>nmfe_command</TD><TD>Action when run (nmfe) is clicked
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>psn_command</TD><TD>Action when a PsN function is clicked
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>wfn_command</TD><TD>Action when NMGO/NMBS is clicked
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>properties_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>edit_model_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>rename_model_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>duplicate_model_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>duplicate_msf_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>delete_models_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>copy_results_from_folder_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>generate_report_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>generate_LaTeX_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>send_model_info_to_R_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>view_outputfile_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>R_plot_etas_distribution_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>R_correlation_plot_command</TD><TD>create a csv file with the correlation matrix, feed it to R+ellipse and create a PDF.
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>generate_HTML_from_images</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>new_script_dialog</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>create_scripts_menu</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>check_out_dataset</TD><TD>Create an HTML table from a CSV dataset. Color coded event types.
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>cov_calc_window</TD><TD>Open a dialog window in which covariance can be re-calulated to correlation no an SD scale
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>recalc_cov</TD><TD>Does the actual calculation used in cov_calc_window
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>plot_corr_matrix_old</TD><TD>create a csv file with the correlation matrix, feed it to R+ellipse and create a PDF.
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>save_matrices</TD><TD>Start extraction of all matrices from a results file.
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>output_matrix</TD><TD>Converts a referenced matrix obtained from a result-file to a CSV file
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>run_script</TD><TD>Run an R / perl (or other type of) script an capture the console output
+</TD><TD></TD><TD></TD></TR>
+<TR><TD>create_R_object_from_models</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>update_script_with_parameters</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>open_script_in_Rgui</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>run_command_in_console</TD><TD>Run a command and capture the console output
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>restart_msf</TD><TD>Create a NM model file from a previous one, and alter it so that it restart with the MSF-file that was created
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>edit_model</TD><TD>Edit a modelfile, choose to invoke the built-in editor or a user-specified one
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>tree_models</TD><TD>Generate a tree structure and return them as array and text
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>project_info_window</TD><TD>Create a dialog shown info for the current project
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>show_estim_window</TD><TD>Show window with final parameter estimates
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>read_log</TD><TD>Read Pirana log file
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>save_log</TD><TD>Save pirana log file
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>add_nm_inst</TD><TD>Add a local NM installation to Pirana
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>remove_nm_inst</TD><TD>Remove an NM installation from Pirana (but don't delete the installation)
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>save_ini</TD><TD>Save Pirana settings contained in a hash to ini-file.
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>show_script_params</TD><TD>In the interface for scripts (currently discontinued function) show the script parameters
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>read_scripts</TD><TD>Read the scripts in the current directory
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>edit_ini_window</TD><TD>Open a window to edit preferences/software settings
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>read_sizes</TD><TD>Read the SIZES file (NM6) and return them in an array
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>refresh_sizes</TD><TD>Refresh the sizes values in the dialog
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>save_sizes</TD><TD>Save SIZES file (NM6)
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>create_nmfe_compile_bat_files</TD><TD>Create bat-file for compilation of a NM run. Bat file is adapted from nmfe6.bat or nmfe7.bat
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>nmqual_xml</TD><TD>Read an NMQual XML file, and return the NM target directory and the NM version
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>install_nonmem_nmq_window</TD><TD>Create dialog for installing NONMEM through NMQual
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>install_nonmem_window</TD><TD>Create dialog for installing NONMEM
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>manage_nm_window</TD><TD>Create the dialog for editing the NM sizes file
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>csv_tab_window</TD><TD>Create the dialog for converting a csv-file into a tab file or viceversa
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>frame_statusbar</TD><TD>Create frame+label with status text
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>status</TD><TD>Change the statusbar text
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>setup_ini_dir</TD><TD>Create directories /ini en /log in home folder
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>check_ini_file</TD><TD>check the ini-files at startup and rewrite if incomplete
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>renew_pirana</TD><TD>To reload the main part of the GUI
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>refresh_pirana</TD><TD>To refresh the interface
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>show_console_output</TD><TD>Create (or destroy) a text-box that show the output of several commands
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>message</TD><TD>Show a small window with a text and an OK button
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>intro_msg</TD><TD>Issue a message-window showing startup errors
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>read_ini</TD><TD>Reads pirana ini-files
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>nmqual_compile_script</TD><TD>create a new perl-script from NMQUal run-script, to allow compilation of nonmem.exe, but not executing it.
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>first_time_dialog</TD><TD>Present a dialog the first time Pirana is started
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>initialize</TD><TD>Initialize pirana</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>cluster_monitor</TD><TD>Create a window showing the active nodes in the PCluster
+</TD><TD></TD><TD></TD></TR>
+<TR><TD>populate_cluster_monitor</TD><TD>Show the active nodes in the cluster overview window
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>quit</TD><TD>Save current settings and exit
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>save_project</TD><TD>Save project link into projects.ini
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>rewrite_projects_ini</TD><TD>Rewrite the projects.ini file after updates have been made
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>del_project</TD><TD>Delete a project quick-link (which are shown upper left in the main window)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>niy</TD><TD>Issue a message window showing that the functionality is not implemented yet
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>populate_delete_models</TD><TD>insert models and files to be deleted into window's listboxes
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>delete_models_window</TD><TD>Create dialog for deleting NM models/results
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>populate_cleanup</TD><TD>insert models and files to be deleted into window's listboxes
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>cleanup_runtime_files_window</TD><TD>Create dialog for deleting NM models/results
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>duplicate_model_window</TD><TD>Creates a dialog window for duplicating a model file
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>new_ctl</TD><TD>Dialog for creating a new model file, either blank or from a template (dialog + creation of model file)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>new_dir</TD><TD>Create a new folder (dialog + create new dir)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>rename_ctl</TD><TD>Rename a NM model file (create dialog and perform the renaming)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_model_descr</TD><TD>Updata model description (extracted from NM model file)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_run_results</TD><TD>Get updated run results from the NM results file, and update the database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>read_curr_dir</TD><TD>Get all model files and all directories in curr dir and put them in arrays
+</TD><TD>W+
+</TD><TD>sub could be somewhat more refined
+</TD></TR>
+<TR><TD>update_model_info</TD><TD>Read model info and update the hash
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>calc_ofv_diff</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>return_last</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>populate_models_hlist</TD><TD>To put all the NM model files and directories found in the current working directory in the main overview table
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>read_tab_files</TD><TD>Read in all table/csv files in a directory
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>configure_tab_buttons</TD><TD>Activate/deactive the correct buttons for the table-overview listbox
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>tab_dir</TD><TD>Read tab/csv/r files for the current dir
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>populate_tab_hlist</TD><TD>Put the tables/files in the current (and data-)dir in the listbox that was created earlier
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>print_note</TD><TD>Print a note saying that the model was executed from Piraña
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>update_nmfe_run_script_area</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>update_psn_run_script_area</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>build_nmfe_run_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>exec_run_nmfe</TD><TD>Run a model using the nmfe command
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>exec_run_pcluster</TD><TD>Run a model on PCluster (using nmfe-method)
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>pcluster_create_bat_file</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>exec_run_psn</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>update_psn_run_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>build_psn_run_command</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>text_window_nm_help</TD><TD>Show a window with a text-widget containing the specified text
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>pcluster_get_available_nodes</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>cluster_report</TD><TD>Show a messagewindow displaying a message that n runs were successfully copied to cluster
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>move_nm_files</TD><TD>move nonmem files to a new directory for compilation or running in new dir
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>get_nmq_name</TD><TD>Return the name of an NMQual installation of NONMEM when supplied with the full path
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>get_nmfe_number</TD><TD>Get the highest number of nmfe_ directories (and add one)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>copy_dir_res</TD><TD>The dialog window to copy results and tab_files from selected dir ( calls copy_dir_res_function()  )
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>copy_dir_res_function</TD><TD>The function to copy results and tab_files from selected dir
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>frame_tab_show</TD><TD>Construct the frame showing the table/csv files
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>bind_models_menu</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>bind_tab_menu</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>nm_help_filter_keywords</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>show_links</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>run_command</TD><TD>Run a command, either using CMD.exe in windows, or using ssh on the cluster (when using the linux-cluster functionality and when the cluster is enabled)
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>new_model_name</TD><TD>Return a new model name when supplied with a previous one (eg. 001 -> 001A)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>save_header_widths</TD><TD>Save the columnwidths of the main Listbox
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>nmfe_run_window</TD><TD>Create dialog window for running a model
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>pcluster_select_node_window</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>ssh_notebook_tab</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>bind_update_nmfe_run_script</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>bind_update_psn_run_script</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>psn_run_window</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>psn_info_update_text</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>models_hlist_action</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>frame_models_show</TD><TD>Create the frame and the HList object that show the models
+</TD><TD>W+L+
+</TD><TD>needs some os-specifics to make the HList look okay.
+</TD></TR>
+<TR><TD>show_run_frame</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>table_info_window</TD><TD>Open a dialog window in which table/file info (size / notes) are shown and can be edited
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>model_properties_window</TD><TD>Open a dialog window in which model properties are shown and can be edited
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>update_text_box</TD><TD>Update the specified text-box with text (used for updating information boxes about model / table-file info)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>note_color</TD><TD>Give the selected model/result a color
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>wfn_run_window</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>create_wfn_start_script</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>exec_run_wfn</TD><TD>Execute a run using WFN
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>get_nm_installations</TD><TD>get the nm installations from the hash, filtered by NM-type
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_new_dir</TD><TD>generate a new dir number for nmfe-runs
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>enable_run_new_dir_checkbox</TD><TD>Set the checkbox for "start in new dir" to a state
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_psn_lst_param</TD><TD>Update '-outputfile=xxx.lst' with current model number in the psn parameter entry
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_psn_params_function</TD><TD>Update '-outputfile=xxx.lst' with current model number in the psn parameter entry
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>project_optionmenu</TD><TD>Create the optionmenu showing the different projects
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>project_buttons_show</TD><TD>Show the buttons for saving/editing/info of the projects
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>show_exec_runs_window</TD><TD>Show a dialog that displays a log of executed runs
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>populate_run_log_hlist</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>show_inter_window</TD><TD>Show a dialog that displays intermediate OFVs, param.estims and gradients for runs in the current folder and below
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>update_gradient_plot</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>update_ofv_plot</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>inter_status</TD><TD>Change the status text in the intermediate-results window
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>inter_window_add_item</TD><TD>Add item in the intermediate results window
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>get_runs_in_progress</TD><TD>return a hash of runs that are currently in progress in the current directory, or in PsN/nmfe directories below
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>get_run_progress</TD><TD>Return the number of iterations and OFV of a currently running model
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>update_inter_results_dialog</TD><TD>update dialog with intermediat results
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>extract_inter</TD><TD>extract intermediate results from files in a folder
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>create_duplicates_window</TD><TD>Create dialog window for making n duplicates from model(s)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>batch_replace_block</TD><TD>Create dialog for replacing code in batch of files
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>add_code</TD><TD>Create dialog for adding code to files in batch mode
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>random_sim_block_window</TD><TD>Create a dialog to change the seed in SIM to a random number (invoke change seed)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TH colspan=4><B>model.pm</B></TH></TR><TR><TH colspan=4><B>pcluster.pm</B></TH></TR><TR><TD>generate_zink_file</TD><TD>Generate a zink-file (PsN)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>get_active_nodes</TD><TD>Return the CPUs in the PCluster
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TH colspan=4><B>editor.pm</B></TH></TR><TR><TD>text_edit_window</TD><TD>A built-in text editor for NM model files, the actual dialog
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>text_edit_window_build</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>save_model</TD><TD>Save the text in the TextEdtitor window to a file
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>refresh_edit_window</TD><TD>Update the TextEditor window
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TH colspan=4><B>db.pm</B></TH></TR><TR><TD>check_db_file_correct</TD><TD>Deletes pirana.dir if size = 0 b.
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_rename_model</TD><TD>Get project info from database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_get_project_info</TD><TD>Get project info from database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_insert_project_info</TD><TD>Insert project info into database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_create_tables</TD><TD>Create tables in the db(pirana.dir) if they are not already created
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_log_execution</TD><TD>Log the starting of runs/PsN-commands to a the database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>delete_run_results</TD><TD>Delete a NM results file, and delete the results from the database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_add_note</TD><TD>Add a note for a model to the sqlite database (pirana.dir)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_execute</TD><TD>Execute an SQL command on the database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_execute_multiple</TD><TD>Execute several SQL command on the database and commit afterwards (to save speed)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_insert_table_info</TD><TD>Inserts table information into db (notes/creator etc)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_remove_table_info</TD><TD>Remove all table info from database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_insert_model_info</TD><TD>Inserts model information into db (notes/description etc)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_remove_model_info</TD><TD>Remove all mode info from database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_add_color</TD><TD>Add the color that is chosen for a model/results to the database
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_read_exec_runs</TD><TD>Read executed run list from DB and return array-ref
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_read_table_info</TD><TD>Read table info (notes / creator / etc.)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_read_model_info</TD><TD>Read table info (notes / creator / etc.) of one specific model
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>db_read_all_model_data</TD><TD>Read model info from the sqlite database (pirana.dir)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TH colspan=4><B>PsN.pm</B></TH></TR><TR><TD>get_psn_info</TD><TD>Get the info on a PsN command, by invoking the -h switch and capturing the output
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>get_psn_help</TD><TD>Get the full help on a PsN command, by invoking the -help swith and capturing the output
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>get_psn_nm_versions</TD><TD>Retrieve the NM versions specified to psn. (reads a pipe from "psn -nm_versions")
+</TD><TD>W+L+
+</TD><TD>When the psn command is invoked but cannot be found, Pirana crashes
+</TD></TR>
+<TR><TH colspan=4><B>data_inspector.pm</B></TH></TR><TR><TD>create_plot_window</TD><TD>Create the dataInspector window
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>refresh_plot</TD><TD>Refresh the plot in the dataInspector window
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>show_plot</TD><TD>Draw the plot in the dataInspector window
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>read_table</TD><TD>Read in a table/csv file and return values by column
+</TD><TD>W+L/
+</TD><TD></TD></TR>
+<TR><TH colspan=4><B>misc.pm</B></TH></TR><TR><TD>find_R</TD><TD>Find the newest R version on Windows
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>get_file_extension</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>make_clean_dir</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>generate_random_string</TD><TD>Generate a random string of n length
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>lcase</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>replace_string_in_file</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>dir</TD><TD>Return files in a dir
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>ascend</TD><TD>Sort ascending
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>log10</TD><TD>return logarithmic value
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>bin_mode</TD><TD>Rewrite a file in binary mode
+</TD><TD>W+L+?
+</TD><TD></TD></TR>
+<TR><TD>rnd</TD><TD>Return a rounded number (with trailing zeroes removed)
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>one_dir_up</TD><TD>Return the directory paht located one dir up
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>win_path</TD><TD>Return a path with only \
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>unix_path</TD><TD>Return a path with only /
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>os_specific_path</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>extract_file_name</TD><TD>Return only the filename from a full given path
+</TD><TD>W+L+
+</TD><TD></TD></TR>
+<TR><TD>csv2tab</TD><TD>Convert a csv file to a table file
+</TD><TD>W+
+</TD><TD></TD></TR>
+<TR><TD>tab2csv</TD><TD>Convert a NM table to a csv file (e.g. for reading in excel)
+</TD><TD>W+
+</TD><TD>laborious method, since NONMEM does not output tables using \t but with spaces
+</TD></TR>
+<TR><TD>read_dirs</TD><TD>Return all directories in the current directory
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>read_dirs_win</TD><TD>Return all directories in the current directory
+</TD><TD>W+L?
+</TD><TD></TD></TR>
+<TR><TD>win_start</TD><TD>Start a program on Windows (with arguments)
+</TD><TD>W+L-
+</TD><TD></TD></TR>
+<TR><TD>linux_start</TD><TD></TD><TD></TD><TD></TD></TR>
+<TR><TD>start_command</TD><TD></TD><TD></TD><TD></TD></TR>
+</TABLE></BODY></HTML>

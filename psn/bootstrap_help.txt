@@ -1,0 +1,158 @@
+
+    bootstrap
+      
+      Bootstrap using the percentile or BCa method.
+      
+    Usage:
+
+
+
+   Description:
+
+      The Bootstrap can be used to calculate bias, standard errors and
+      confidence intervals. It does so by resampling with replacement
+      from the data, see Efron B, An Introduction to the Bootstrap,
+      Chap. & Hall, London UK, 1993. To compute standard errors for
+      all parameters of a model using the non-parametric bootstrap
+      implemented here, roughly 200 model fits are necessary. To assess
+      95% confidence intervals approximatly 2000 runs will suffice.
+
+   Example:
+
+      bootstrap -samples=200 run89.mod
+
+      This will run a non-parametric bootstrap of 200 samples and give
+      you good estimates of the standard errors of the parameter
+      estimates. You may get some estimates for the confidence
+      intervals too, but they will generally not be of high quality.
+
+
+      bootstrap -samples=2000 -bca run89.mod
+
+      This will run a non-parametric bootstrap using the BCa technique
+      (See An introduction to the bootstrap, Efron, 1993). The BCa is
+      intended for caclulation of second-order correct confidence
+      intervals.
+
+
+      bootstrap -samples=2000 -bca -stratify_on=5 run89.mod 
+
+      This is the same BCa approach as above but with stratification
+      on the factors of column five.
+
+   Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -t (or even -thr) but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -allow_ignore_id
+
+      Allow IGNORE/ACCEPT statements in the $DATA record based on ID column.
+      Default not used, i.e. IGNORE/ACCEPT certain ID values is not allowed. 
+      Warning: If turned on, resampling of individuals
+      may be erroneous, since the script renumbers individuals before sampling.
+
+      -bca
+
+      Using the -bca option, the bootstrap
+      utility will calculate the confidence intervals through the BCa
+      method. The default approach however, is not to use the BCa (see
+      Efron B, An introduction to the Bootstrap, 1993). The BCa is
+      intended for calculation of second-order correct confidence
+      intervals.  
+
+      -copy_data
+    Default not set. By default, the bootstrapped datasets bs_pr1_.dta 
+    generated in the m1 subdirectory are not copied to the NM_run subdirectories 
+    of modelfit_dir1. Relative data paths, ../../m1/bs_pr1_.dta , are 
+    used in $DATA in the modelfiles in NM_run. This saves much disk space. 
+    If -copy_data is set, the bootstrapped datasets are instead copied to the 
+    NM_run directories, and $DATA has  bs_pr1_.dta without any path.
+
+
+      -rplots
+
+      Generate R scripts for making various plots of the result.
+
+      -sample_size
+
+      The number of subjects in each bootstrap data set. The default
+      value is set to the number of individuals in the original data
+      set.
+
+      When the resampling is stratified, the sample_size option can be
+      used to specify the exact number of samples that should be drawn
+      from each strata. Below follows an example of the syntax that
+      should be used in such a case. Stratification is here done based
+      on the study number, STUD, with the values 1001, 1002 and 1003.
+
+      -sample_size='1001=>12,1002=>24,1003=>10'
+
+      This example specifies that the bootstrap should use 12 samples
+      from study 1001, 24 samples from 1002 and 10 from study 1003.
+
+      If only one sample size is used together with stratified
+      resampling (the default case; sample_size=number of individuals
+      in the data set), the strata are assigned samples in proportion
+      to their size in the data set. Please note that this usage of
+      the sample_size option does not guarantee that the sum of the
+      samples of the strata is equal to the given sample_size since
+      PsN needs to round the figures to the closest integer. For a
+      sample size equal to the number of individuals in the data set,
+      the sum will however always be correct.
+
+
+      -samples
+
+      The number of bootstrap samples/datasets to generate.
+
+      -skip_covariance_step_terminated
+
+      With this option enabled, the bootstrap will skip all samples
+      where the NONMEM run terminated the covariance step.
+      Force disabling with -no-skip_covariance_step_terminated.
+
+      -skip_estimate_near_boundary
+
+      With this option enabled, the bootstrap will skip all samples
+      where the NONMEM run signal that some estimates are near its
+      boundary.
+      Force disabling with -no-skip_estimate_near_boundary.
+
+      -skip_minimization_terminated
+
+      With this option enabled, the bootstrap will skip all samples
+      where the NONMEM run terminated the minimization step.
+      Force disabling with -no-skip_minimization_terminated.
+
+      -skip_with_covstep_warnings
+
+      With this option enabled, the bootstrap will skip all samples
+      where the NONMEM run had warnings from the covariance step.
+      Force disabling with -no-skip_with_covstep_warnings.
+
+      -stratify_on=integer|string
+
+      It may be necessary to use stratification in the resampling
+      procedure. For example, if the original data consists of two
+      groups of patients - say 10 patients with full pharmacokinetic
+      profiles and 90 patients with sparse steady state concentration
+      measurements - it may be wise to restrict the resampling
+      procedure to resample within the two groups, producing bootstrap
+      data sets that all contain 10 rich + 90 sparse data patients but
+      with different compositions. The default is not to use
+      stratification. Set -stratify_on to
+      the column that defines the two groups. If a string is used with
+      stratify_on the header in the datafile is used to map the string
+      to a column number.
+
+      Note that the option sample_size has a different behavior when
+      stratified resampling is used.
+
+      Also see 'psn_options -h' for a description of common options.
+

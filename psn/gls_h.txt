@@ -1,0 +1,20 @@
+
+  gls
+
+    Generalised Least Squares approximation of FOCE INTER
+
+
+[ -h | -? ] [ --help ]
+    [ --additive_theta='number' ]
+    [ --gls_model! ]
+    [ --ind_shrinkage! ]
+    [ --iwres_shrinkage='number' ]
+    [ --reminimize! ]
+    [ --samples='integer' ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'gls -help' for a longer description.
+    Also see 'psn_options -h' for a description of common PsN options.
+

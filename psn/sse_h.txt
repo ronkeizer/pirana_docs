@@ -1,0 +1,25 @@
+
+  sse
+
+    Stochastic Simulation and Estimation of NONMEM models.
+
+
+[ -h | -? ] [ --help ]
+    [ --add_models ]
+    [ --alternative_models='alt1.mod,alt2.mod,...' ]
+    [ --estimate_simulation! ]
+    [ --in_filter='string' ]
+    [ --offset_rawres='integer' ]
+    [ --out_filter='string' ]
+    [ --parallel_simulations='integer' ]
+    [ --rawres_input='string' ]
+    [ --recompute='string' ]
+    [ --ref_ofv='number' ]
+      --samples='integer'
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'sse -help' for a longer description.
+    Also see 'psn_options -h' for a description of common PsN options.
+

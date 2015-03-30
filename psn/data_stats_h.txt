@@ -1,0 +1,13 @@
+
+  data_stats
+
+  Usage:
+
+  data_stats [ -h | -? ] [ -help ]
+             [ -columns='string' ]
+	     [ -ignore_columns='string' ]
+             [ -debug='integer' ] 
+	     [ -debug_package='string' ] 
+	     [ -debug_subroutine='string' ]
+	     outputfile(s)
+

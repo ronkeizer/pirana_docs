@@ -1,0 +1,18 @@
+
+  create_subsets
+
+      The create_subsets script creates subsets of the individuals of
+      a data set.
+
+    Usage:
+
+      create_subsets
+      -bins=3
+      [-idcolumn=column_number]
+      [-stratify_on=column_number]
+      datafile
+
+    Example:
+
+      ./create_subsets -idc=1 -bins=3 -stratify_on=5 datafile
+

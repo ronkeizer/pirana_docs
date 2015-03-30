@@ -1,0 +1,128 @@
+
+
+    Stepwise covariate model building from NONMEM models.
+        
+
+
+
+
+    The Cross-validated Stepwise Covariate Model (XV_SCM) building tool 
+    of PsN implements cross-validated model size selection for a
+    covariate model. It relies on the SCM tool of PsN.
+        
+    A configuration file must be written for each xv_scm run. The 
+    format of the configuration file follows the format of the scm
+    configuration file exactly, except that options 
+    search_direction, gof, p_value, p_forward, p_backward and 
+    update_derivatives are ignored.
+    
+
+
+    Execute an XV_SCM using parameters set in the config file
+    'phenobarbital.scm'.
+
+    xv_scm -config_file=phenobarbital.scm
+
+    Execute an XV_SCM using parameters set in the config file
+    'phenobarbital.scm'. But override the retries and the seed
+    parameter.
+
+
+    xv_scm -config_file=phenobarbital.scm -retries=5 -seed=12345 phenobarbital.mod
+
+
+
+    The options are given here in their long form. Any option may be
+    abbreviated to any nonconflicting prefix. The -threads option may
+    be abbreviated to -thr but -debug may not be abbreviated to -d 
+    because it conflicts with -debug_packages and -debug_subroutines.
+
+    The following options are valid:
+
+
+    -config_file
+
+    A path and file name to an scm configuration file.
+
+    -do_not_drop
+
+    Since the number of columns are restricted to 20 for NONMEM it is
+    necessary to minimize the number of undropped columns. The xv_scm
+    utility uses the '=DROP' syntax of NONMEM to exclude the covariate
+    columns that are not used. If some covariates are used in the PK
+    or PRED code in the basic model you must list them using the
+    do_not_drop option to prevent them from being dropped.
+
+    -epsilon
+
+    Only relevant with linearize method. Linearize with respect to epsilons,
+    set by default. Disable with -no-epsilon.
+
+    -foce
+
+    Only relevant with linearize method. Expand around conditional ETA estimates 
+    instead of around ETA=0. The default is around conditional ETAs.
+    
+
+    -global_init
+
+      -groups=N
+
+    The number of validation groups. Default 5.
+
+    -linearize
+
+    Invoke covariates using taylor expansions (linearize) method.
+    
+
+    -logfile
+
+    The name of the logfile.
+
+    -lst_file
+
+    Name of file with initial estimates for linearize method.
+    
+
+      -max_steps=N
+
+    Do not take more that max_steps forward steps,
+    even if there are more covariates left to add and a significant
+    inclusion was made in the last step.
+
+    -model
+
+    The name of the basic model file, without any parameter-covariate
+    relations included.
+
+    -only_successful
+
+    Only consider runs with MINIMIZATION SUCCESSFUL 
+    (or equivalent for non-classical estimation methods) when 
+    selecting the covariate to add/remove in each step.
+
+    -parallel_states
+
+    If this option is set, xv_scm will test all valid_states simultaneously
+    instead of the default method to test valid_states sequentially, only
+    testing a higher state if the preceeding state has been included in the model.
+
+      -splits=N
+
+    The number times to perform a complete cross-validation
+    with a new data split. Default 1.
+
+      -stratify_on=variable
+
+    PsN will try to preserve the relative proportions of individuals
+    with different values of the stratification variable
+    when creating data subsets during cross-validation.
+    The stratification variable must be found in the original dataset,
+    and there must be at least 'groups' individuals having each
+    unique value of the stratification variable. If the stratification
+    variable is continuous it is recommended to first group the values
+    and then stratify on group number instead of the continuous variable.
+
+    Also see 'scm -h' for a list of scm options,
+    and 'psn_options -h' for a description of common options.
+

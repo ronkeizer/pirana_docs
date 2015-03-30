@@ -1,0 +1,82 @@
+
+    Perl speaks NONMEM.
+
+    Listing of PsN scripts.
+
+
+
+
+
+
+      bootstrap - Bootstrap using the percentile or BCa method.
+
+      cdd - Case Deletion Diagnostics
+
+      create_cont_data - wrap the rows in a dataset with
+      more than 20 columns.
+
+      create_extra_data_model - create a model file with more 
+      than one data file per problem.
+
+      create_subsets -  creates subsets of the individuals of
+      a dataset.
+
+      data_stats - Print simple statistics for dataset columns.
+
+      execute - NONMEM runs are started using one or multiple model files.
+
+      extended_grid - non-parametric estimation on the extended grid.
+
+      llp - Log-Likelihood Profiling around maximum-likelihood parameter
+      estimates.
+
+      mcmp - Monte-Carlo mapped power. A fast method for power computations.
+
+      -nm_versions is an option to this program psn, not a standalone script. 
+      The command 
+      psn -nm_versions 
+      will give a list of the available NONMEM versions defined in the 
+      configuration file psn.conf, i.e. the available alternatives for
+      common option -nm_version (see psn_options -h nm_version for details).
+
+      nonpb - Non-Parametric Bootstrap
+
+      npc - Numerical Predictive Check
+
+      pind - Individual Probabilities
+
+      psn_options - List options common to most PsN scripts.
+
+      runrecord - Create records of NONMEM runs
+
+      scm - Stepwise Covariate Model-building
+
+      se_of_eta - Standard Errors of Etas
+
+      single_valued_columns - Identifies dataset columns with 
+      values that do not vary within an individual. This is 
+      useful for creation of extra data files when the number 
+      of columns needed are above 20.
+
+      sse - Stochastic Simulation and Estimation
+
+      sumo - Summary of Output from NONMEM
+
+      unwrap_data - unwraps a data file coded with
+      the CONT data item for split rows. 
+
+      update_inits - read final THETA, OMEGA and SIGMA estimates from a 
+      NONMEM output file and put into a given model file.
+
+      vpc - Visual Predictive Check
+
+
+    Use 'psn -h "scriptname"' for a one-line description of a script,
+    for example 'psn -h sse'.
+
+    Use '"scriptname" -help' for details on a particular script,
+    for example 'sse -help'. Exception is -nm_versions which is only
+    an option to this program, see 'psn -h nm_versions'.
+
+    Use 'psn_options -h' for a list of common options to PsN.
+

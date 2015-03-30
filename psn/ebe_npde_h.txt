@@ -1,0 +1,19 @@
+
+  ebe_npde
+
+    Generate ranked empirical Bayes estimates
+
+
+[ -h | -? ] [ --help ]
+         [ --estimate_input! ]
+         [ --gls_data_file! ]
+         [ --lst_file='string' ]
+         [ --reminimize! ]
+         [ --samples='integer' ]
+         
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'ebe_npde -help' for a longer description.
+    Also see 'psn_options -h' for a description of common PsN options.
+

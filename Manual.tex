@@ -1,0 +1,53 @@
+\documentclass[a4,11pt]{report} 
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+%\usepackage{lineno}
+\usepackage{color}
+\usepackage{float}
+\usepackage{enumitem}
+\definecolor{PiranaOrange}{rgb}{0.9,0.4,0.1}
+\definecolor{Blue}{rgb}{0.0,0.0,0.7}
+\definecolor{Red}{rgb}{0.7,0.0,0.0}
+\definecolor{Grey}{rgb}{0.4,0.4,0.4}
+\definecolor{lightGrey}{rgb}{0.9,0.9,0.9}
+
+\bibliographystyle{unsrt}%Choose a bibliograhpic style}
+%\usepackage{utopia} 
+%\usepackage{charter} %\usepackage{palatino}
+%\usepackage{bookman} %\usepackage{newcent} %\usepackage{times}
+%\usepackage[options]{natbib} \sloppy
+\usepackage{listings}
+\lstset{basicstyle=\small\ttfamily,breaklines=true,backgroundcolor=\color{lightGrey}}
+
+\renewcommand{\familydefault}{\sfdefault} 
+
+\oddsidemargin 1.5cm
+
+\textwidth 14cm
+
+\begin{document}
+
+\title{
+  \vspace{-100pt}
+  \textbf{
+    \textcolor{PiranaOrange}{\Large Pirana}
+  }\\
+  \vspace{5pt}
+  \scriptsize \textcolor{Grey}{The pharmacometrician's workbench} \\
+  \normalsize
+  \vspace{15pt}
+  \hspace{15pt}\includegraphics[scale=0.2]{images/pirana_logo.jpg}\\
+  \vspace{15pt}
+  \scriptsize Version $\geq$ 2.10.0\\Installation guide and Manual \\
+  \vspace{5pt}
+  \scriptsize {\today} \\
+  \date{}
+}
+\maketitle
+
+\tableofcontents
+
+\input{manual_body.tex}
+
+\end{document}
+

@@ -1,0 +1,48 @@
+
+  vpc
+
+    Visual Predictive Check.
+
+
+[ -h | -? ] [ --help ]
+    [ --bin_array='string' ]
+    [ --bin_by_count='integer' ]
+    [ --boxcox_lambda='number' ]
+    [ --censor='string' ]
+    [ --confidence_interval='integer' ]
+    [ --dv='string' ]
+    [ --flip_comments! ]
+    [ --idv='string' ]
+    [ --keep_estimation! ]
+    [ --levels='string' ]
+    [ --lloq='number' ]
+    [ --lnDV='integer' ]
+    [ --lower_bound='string' ]
+    [ --lst_file='string' ]
+    [ --mirrors='integer' ]
+    [ --msfo_file='string' ]
+    [ --n_simulation_models='integer' ]
+    [ --no_of_bins='integer' ]
+    [ --no_of_strata='integer' ]
+    [ --noprediction ]
+    [ --offset_rawres='integer' ]
+    [ --orig_table='string' ]
+    [ --overlap_percent='integer' ]
+    [ --predcorr ]
+    [ --rawres_input='string' ]
+      --samples='integer'
+    [ --sim_model='string' ]
+    [ --sim_table='string' ]
+    [ --single_bin_size='string' ]
+    [ --stratify_on='string' ]
+    [ --tte='string' ]
+    [ --uloq='number' ]
+    [ --varcorr ]
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'vpc -help' for a longer description.
+
+    Also see 'psn_options -h' for a description of PsN common options.
+

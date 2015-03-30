@@ -1,0 +1,38 @@
+
+  nonpb
+
+    Non-Parametric Bootstrap.
+
+  Usage:
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -t(or even -thr) but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -lst_file=
+
+      Optional, the lst-file from where to read initial parameter estimates. 
+      Default is the same name as the model file but with .mod replaced with .lst.
+
+      -nonpb_version=1|2
+
+      Optional, the version of the script to run. Default is 1, the simplified version.
+      Version 2 is the full version.
+
+      -samples=N
+
+      Required option. The number of samples for the bootstrap.
+
+
+      Also see 'psn_options -h' for a description of common options.
+

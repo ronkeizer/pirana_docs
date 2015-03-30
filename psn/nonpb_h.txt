@@ -1,0 +1,18 @@
+
+  nonpb
+
+    Non-Parametric Bootstrap.
+
+  Usage:
+
+[ -h | -? ] [ --help ]
+      [ --lst_file='string' ]
+      [ --nonpb_version='string' ]
+        --samples='200'
+      
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'nonpb -help' for a longer description.
+      Also see 'psn_options -h' for a description of common options.
+

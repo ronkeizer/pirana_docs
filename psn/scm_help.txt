@@ -1,0 +1,190 @@
+
+  scm
+
+  Stepwise covariate model building from NONMEM models.
+
+  Usage:
+
+
+
+
+
+
+  Description:
+
+    The Stepwise Covariate Model (SCM) building tool of PsN implements
+    Forward Selection and Backward Elimination of covariates to a
+    model. In short, one model for each relevant parameter-covariate
+    relationship is prepared and tested in a univariate manner. In the
+    first step the model that gives the best fit of the data according
+    to some criteria is retained and taken forward to the next
+    step. In the following steps all remaining parameter-covariate
+    combinations are tested until no more covariates meet the criteria
+    for being included into the model. The Forward Selection can be
+    followed by Backward Elimination, which proceeds as the Forward
+    Selection but reversely, using stricter criteria for model
+    improvement.
+
+     
+
+    The Stepwise Covariate Model building procedure is run by the PsN
+    tool scm. The options to scm can (and should) be rather complex to
+    describe all features of a covariate model building procedure. To
+    make it easier for the user, a configuration file should be
+    written for each scm run. The options can be specified in this
+    file instead of the command line.
+
+
+    Read more on our homepage: www.sf.net/psn.
+
+
+  Examples:
+
+    Execute an SCM using parameters set in the config file
+    'phenobarbital.scm'.
+    
+       $ scm -config_file=phenobarbital.scm
+
+    Execute an SCM using parameters set in the config file
+    'phenobarbital.scm'. But override the retries and the seed
+    parameter.
+
+       $ scm -config_file=phenobarbital.scm -retries=5 -seed=12345 phenobarbital.mod
+
+  Options:
+
+    The options are given here in their long form. Any option may be
+    abbreviated to any nonconflicting prefix. The -threads option may
+    be abbreviated to -thr but -debug may not be abbreviated to -d 
+    because it conflicts with -debug_packages and -debug_subroutines.
+
+    The following options are valid:
+
+    -config_file
+
+    A path and file name to an scm configuration file.
+
+    -do_not_drop
+
+    To save memory it is desirable to minimize the number of undropped columns
+    in the candidate models. The scm program uses the '=DROP' syntax of NONMEM 
+    to exclude the covariate columns that are not currently tested in a 
+    specific candidate model. If some covariates are used in the PK or PRED 
+    code in the basic model or in an IGNORE/ACCEPT statement you must list them 
+    using the do_not_drop option to prevent them from being dropped in candidate
+    models where they are not tested for inclusion. 
+    If the -linearize option is used, do_not_drop has a different usage. There
+    you must set do_not_drop for all $INPUT items except ID DV and MDV that 
+    are used in an IGNORE/ACCEPT statement, and , if option -error_code is used,
+    parameters except IPRED and EPS that are used in error_code. Do *not* 
+    list parameters used in PK or PRED if -linearize is used.
+
+    -epsilon
+
+    Only relevant with linearize method. Linearize with respect to epsilons,
+    set by default. Disable with -no-epsilon.
+
+    -error
+
+    Only relevant with linearize method, and only if -no-epsilon is set. Form of error model.
+    Either of add (for additive), prop (for proportional),
+    propadd (for proportional plus additive) or user (for user defined).
+    For additive and proportional error (add and prop)
+    it is required that the original model defines a variable W for
+    weighting of EPS(1), as follows
+    Y     = IPRED + W*EPS(1)
+    For proportional plus additive error (propadd)
+    it is required that two variables WA and WP are defined such that
+    W     = SQRT(WA**2+(WP*IPRED)**2)
+    Y     = IPRED + W*EPS(1)
+    For user defined error (user) it is required that the option
+    error_code is defined and gives the code that defines Y, possibly on
+    multiple lines. The code can only use IPRED, EPS(x) and parameters listed
+    with do_not_drop. IPRED must be used. F cannot be used.
+    The code must have a \ (backslash) at the end of each line, except the last
+    which cannot have a backslash. The code must not contain blank lines or comments. 
+
+
+    -foce
+
+    Only relevant with linearize method. Expand around conditional ETA estimates 
+    instead of around ETA=0. The default is around conditional ETAs.
+    
+
+    -global_init
+
+    -gof
+
+    Goodness of fit function. Either pval (default) or ofv.
+
+    -linearize
+
+    Invoke covariates using taylor expansions (linearize) method.
+    
+
+    -logfile
+
+    The name of the logfile.
+
+    -lst_file
+
+    Name of file with initial estimates for linearize method.
+    
+
+      -max_steps=N
+
+    Do not take more that max_steps forward steps,
+    even if there are more covariates left to add and a significant
+    inclusion was made in the last step.
+
+    -model
+
+    The name of the basic model file, without any parameter-covariate
+    relations included.
+
+    -noabort
+
+    Default not set. Only relevant with the linearize method. If set,
+    the program will add NOABORT to $EST of the linearized models.
+    
+
+    -only_successful
+
+    Only consider runs with MINIMIZATION SUCCESSFUL 
+    (or equivalent for non-classical estimation methods) when 
+    selecting the covariate to add/remove in each step.
+
+    -p_backward
+
+    Using the p_backward option, you can specify the p-value to use
+    for the backward deletion.
+
+    -p_forward
+
+    Using the p_forward option, you can specify the p-value to use for
+    the forward selection.
+
+    -p_value
+
+    Use this option to set the p_value for both forward and backward
+    steps.
+
+    -parallel_states
+
+    If this option is set, scm will test all valid_states simultaneously
+    instead of the default method to test valid_states sequentially, only
+    testing a higher state if the preceeding state has been included in the model.
+
+    -search_direction
+
+    Which search task to perform: backward, forward or both is allowed.
+
+    -update_derivatives
+
+    Only relevant with linearize method. Run nonlinear model with new covariate 
+    to get updated derivates, instead of reusing derivatives from model
+    without covariates.
+
+
+    Also see 'psn_options -h' for a description of common options.
+

@@ -1,0 +1,104 @@
+
+  mcmp
+
+    Monte-Carlo Mapped Power
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -t(or even -thr) but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -critical_ofv=number
+
+      Critical ofv for the chi-square test. No default. If this option is set,
+      then options -df and -significance_level will be ignored.
+
+      -curve
+
+      Default set. Can be disabled with -no-curve. This option controls whether
+      the complete power curve up to the target power should be generated, 
+      or if the program should only compute the sample size required to achieve 
+      the target power.
+
+      -df=number
+
+      Number of degrees of freedom for the chi-square test.
+      Default 1.
+
+      -full_model=file
+
+      The full model.
+
+      -increment=number
+
+      The step-size for the total sample size. Default is the number of strata 
+      (1 if stratification is not used).
+
+      -max_size=number
+
+      The largest total sample size to test. Default is the size of the dataset.
+
+      -n_bootstrap=number
+
+      Number of bootstrap samples for each total sample size.
+      Default 10000.
+
+      -reduced_model=file
+
+      The reduced model.
+
+      -significance_level=number
+
+      Significance level for the chi-square test.
+      Default 5 (%). Permitted values are 5, 1 and 0.1.
+
+      -simdata=file
+
+      Optional. If given then no simulation will be performed, instead this
+      datafile will be used when estimating the full and reduced model.
+
+      -simulation_model=file
+
+      The simulation model. Default is the full model.
+
+      -start_size=number
+
+      The first total sample size to test. Default is 3 times the setting of option -increment.
+
+      -stratify_on=VARIABLE
+
+      Variable to stratify on. The variable must be the same for all observations
+      for an individual.
+
+      -table_full=file
+
+      Use an already created tablefile with iofv:s for the full model
+      instead of letting the program run the estimation.
+
+      -table_reduced=file
+
+      Use an already created tablefile with iofv:s for the reduced model
+      instead of letting the program run the estimation.
+
+      -table_strata=file
+
+      Use an already created tablefile with the stratification variable
+      instead of letting the program create one during the estimation.
+
+      -target_power=number
+
+      The highest power for which the program will determine the
+      required sample size. Default 98.
+
+
+    Also see 'psn_options -h' for a description of PsN common options.
+

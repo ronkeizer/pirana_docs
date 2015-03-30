@@ -1,0 +1,72 @@
+
+
+
+
+Description
+
+      The Case Deletion Diagnostics tool is run using the command from the command line
+      with a few mandatory arguments. CDD is run as a diagnostic after
+      a model is regarded finished or at least mature enough to run
+      validation tool on. You need to specify the NONMEM modelfile
+      with a model that have successful termination. You also have to
+      specify the number or name of the datafile column on which to
+      select for deletion. You do so with the case_column option.
+
+Examples
+      
+      cdd -model=run89.mod -case_column=10
+      
+      This will perform a Case Deletion Diagnostic on the model
+      specified in run89.mod based on the factors in column ten. If,
+      for example, column ten holds the ids of the seven centers
+      included in the study, this command will create seven copies of
+      the dataset, each with individuals included in one specific
+      center deleted. Say that the centers are numbered 1 to 7. Then
+      dataset 1 will have individuals from center 1 excluded, dataset
+      2 individuals from center 2 and so on.
+
+      Options
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -t(or even -thr) but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -bins=$number
+
+      Sets the number of databins, or cdd datasets, to use. If the
+      number of unique values, or factors, in the based_on column is
+      higher than the number of bins then one or more factors will be
+      deleted in each cdd dataset. Specifying $number as higher than
+      the number of factors will have no effect. The bin number is
+      then set to the number of factors.
+      Default value = Number of unique values in the based_on column.
+
+      -case_column=column_name|column_number
+
+      This flag is mandatory. Through this flag you set the column on
+      which the case-deletion is done. You can either use the name of
+      the column as specified in the $INPUT record in the model file
+      or you can use the column number.
+
+
+      -outside_n_sd_check='number'
+
+    Mark the runs with CS-CR outside this many standard deviations of the PCA.    
+
+      -selection_method='random' or 'consecutive'
+
+      Specifies whether the factors selected for exclusion should be
+      drawn randomly or consecutively from the datafile.
+      Default value = 'consecutive'
+
+      -xv|-no-xv
+
+      Turns the cross-validation feature on (-xv) or off (-no-xv). The
+      default behaviour is to run the cross-validation step.
+
+      Also see 'psn_options -h' for a description of common options.
+

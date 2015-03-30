@@ -1,0 +1,52 @@
+\documentclass[a4,10pt]{article} 
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+%\usepackage{lineno}
+\usepackage{color}
+\definecolor{PiranaOrange}{rgb}{0.9,0.4,0.1}
+\definecolor{Blue}{rgb}{0.0,0.0,0.7}
+\definecolor{Red}{rgb}{0.7,0.0,0.0}
+\definecolor{Grey}{rgb}{0.2,0.2,0.2}
+\definecolor{grey2}{rgb}{.92, .92, .92}
+
+
+\pdfinfo{
+   /Author (Ron Keizer, Coen van Hasselt, Pirana Software & Consulting BV)
+   /Title  (Pirana Quick Guide)
+}
+
+
+\bibliographystyle{unsrt}%Choose a bibliograhpic style}
+%\usepackage{utopia} %\usepackage{charter} %\usepackage{palatino}
+%\usepackage{bookman} %\usepackage{newcent} %\usepackage{times}
+%\usepackage[options]{natbib} \sloppy
+\renewcommand{\familydefault}{\sfdefault} 
+\renewcommand{\emph}[1]{\textbf{\textcolor{Grey}{#1}}} 
+\oddsidemargin 1cm
+\textwidth 14cm
+\textheight 20cm
+
+\begin{document}
+
+{\centering
+  \vspace{-100pt}
+  \textbf{
+    \textcolor{PiranaOrange}{\Large Pirana}
+  }\\
+  \vspace{5pt} \scriptsize \textcolor{Grey}{The flexible modeling
+    environment for NONMEM} \\ \normalsize
+  \vspace{12pt}
+  \hspace{5pt}\includegraphics[scale=0.14]{images/pirana_logo.jpg}\\
+  \vspace{18pt}
+
+  {\large
+    \emph{Quick Guide: Reporting functionality}  \vspace{10pt} \\
+        Version 1.1
+  }
+
+}
+\vspace{25pt}
+
+\input{10_quick_guide_reporting_body.tex}
+
+\end{document}

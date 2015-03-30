@@ -1,0 +1,330 @@
+Validation report PsN vs Pirana using model library
+Date: Thu Jul  7 17:26:30 2011
+Allowed difference parameter estimates: 0.5% (due to rounding)
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Comparing ../library/001_SH/run38.lst
+  [SAME] Number of parameters / SE values (PsN=127, Pirana=127)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/002_US/run477.lst
+  [SAME] Number of parameters / SE values (PsN=305, Pirana=305)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/003_JSW/run376.lst
+  [SAME] Number of parameters / SE values (PsN=108, Pirana=108)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/004_EP/run505.lst
+  [*** DIFFERENT ***] Number of parameters / SE values (PsN=58, Pirana=57)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+RK: difference due to bug in PsN
+
+Comparing ../library/004_EP/run56mid_cov.lst
+  [SAME] Number of parameters / SE values (PsN=12, Pirana=12)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/005_MT/run59B.lst
+  [SAME] Number of parameters / SE values (PsN=82, Pirana=82)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/006_ES/run631.lst
+  [SAME] Number of parameters / SE values (PsN=641, Pirana=641)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/007_ES/run01.lst
+  [SAME] Number of parameters / SE values (PsN=7, Pirana=7)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/008_CvH/e406C_covstep2.lst
+  [SAME] Number of parameters / SE values (PsN=28, Pirana=28)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/009_ES/run600.lst
+  [SAME] Number of parameters / SE values (PsN=639, Pirana=639)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/010_LF/run1031_dmdc_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run1036_dmdc_neu.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run1043_doce_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run107_vinf_neu.lst
+  [SAME] Number of parameters / SE values (PsN=246, Pirana=246)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run12_vinf_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=246, Pirana=246)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run159_cpt_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=23, Pirana=23)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run2028_etop_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run28_doce_neu.lst
+  [SAME] Number of parameters / SE values (PsN=17, Pirana=17)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run320_pacl_wbc.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run47_etop_neu.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run49_cpt_neu.lst
+  [SAME] Number of parameters / SE values (PsN=23, Pirana=23)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/010_LF/run508_pacl_neu.lst
+  [SAME] Number of parameters / SE values (PsN=13, Pirana=13)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/011_KP/run277.lst
+  [SAME] Number of parameters / SE values (PsN=0, Pirana=0)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/012_KP/Lonnebo_cortisoll_original.lst
+  [SAME] Number of parameters / SE values (PsN=29, Pirana=29)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/013_KP/run85.lst
+  [SAME] Number of parameters / SE values (PsN=22, Pirana=22)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/014_KP/run1.lst
+  [SAME] Number of parameters / SE values (PsN=20, Pirana=20)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/015_KP/run72.lst
+  [SAME] Number of parameters / SE values (PsN=31, Pirana=31)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/016_KP/Hanna_glucose_model-original.lst
+  [SAME] Number of parameters / SE values (PsN=305, Pirana=305)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/017_KP/run2.lst
+  [SAME] Number of parameters / SE values (PsN=38, Pirana=38)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/018_KP/run105.lst
+  [SAME] Number of parameters / SE values (PsN=34, Pirana=34)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/019_RK/014D.lst
+  [SAME] Number of parameters / SE values (PsN=20, Pirana=20)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/020_RK/021B.lst
+  [SAME] Number of parameters / SE values (PsN=15, Pirana=15)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/021_RK/final3B.lst
+  [SAME] Number of parameters / SE values (PsN=224, Pirana=224)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/022_CE/096A.lst
+  [SAME] Number of parameters / SE values (PsN=186, Pirana=186)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Comparing ../library/024_TD/004A.ctl.lst
+  [SAME] Number of parameters / SE values (PsN=31, Pirana=31)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/025_PD/run017.lst
+  [SAME] Number of parameters / SE values (PsN=181, Pirana=181)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/026_PD/run101.lst
+  [SAME] Number of parameters / SE values (PsN=768, Pirana=768)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/027_PD/run118.lst
+  [SAME] Number of parameters / SE values (PsN=185, Pirana=185)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/028_AK/run2.lst
+  [SAME] Number of parameters / SE values (PsN=43, Pirana=43)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/029_RK/007.lst
+  [SAME] Number of parameters / SE values (PsN=15, Pirana=15)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/030_AK/._psn-3_final.lst
+  [SAME] Number of parameters / SE values (PsN=0, Pirana=0)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/030_AK/psn-3_final.lst
+  [SAME] Number of parameters / SE values (PsN=59, Pirana=59)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/031_PD/run045.lst
+  [SAME] Number of parameters / SE values (PsN=150, Pirana=150)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+Comparing ../library/031_PD/run44.lst
+  [SAME] Number of parameters / SE values (PsN=63, Pirana=63)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/032_ES/run12.lst
+  [*** DIFFERENT ***] Number of parameters / SE values (PsN=8, Pirana=7)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+RK: difference due to bug in PsN
+
+---------------------------------------------------------------------------
+Comparing ../library/032_PD/run124.lst
+  [SAME] Number of parameters / SE values (PsN=244, Pirana=244)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Comparing ../library/035_SLZ3/3.lst
+  [SAME] Number of parameters / SE values (PsN=295, Pirana=295)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/034_SLZ2/e102.lst
+  [SAME] Number of parameters / SE values (PsN=38, Pirana=38)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/038_SLZ6/662.lst
+  [SAME] Number of parameters / SE values (PsN=18, Pirana=18)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/039_SLZ7/100N.lst
+  [SAME] Number of parameters / SE values (PsN=12, Pirana=12)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/040_SLZ8/005.lst
+  [SAME] Number of parameters / SE values (PsN=23, Pirana=23)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/041_SLZ9/9.lst
+  [SAME] Number of parameters / SE values (PsN=52, Pirana=52)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/036_SLZ4/md101.lst
+  [SAME] Number of parameters / SE values (PsN=62, Pirana=62)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/033_SLZ1/e406G.lst
+  [SAME] Number of parameters / SE values (PsN=28, Pirana=28)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Comparing ../library/037_SLZ5/t01.lst
+  [SAME] Number of parameters / SE values (PsN=36, Pirana=36)
+  [SAME] Comparison of parameter values 
+  [SAME] Comparison of RSE values 
+
+---------------------------------------------------------------------------
+Total number of tests: 220
+Test failed:           2

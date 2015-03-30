@@ -1,0 +1,19 @@
+
+  single_valued_columns
+
+      Perl script for identification of columns which contain only one
+      value per individual. Creates two new data files: one containing the
+      columns that are single valued and one containing the rest.
+
+    Usage:
+      
+      single_valued_columns -data=filename
+      [-idcolumn=column_number]
+      [-subset_name=single_value_filename]
+      [-remainder_name=remaining_data_filename]
+      [-do_not_test_columns='2,3,5..7']
+      
+    Example:
+      
+      perl single_valued_columns -data=pheno.dta -idc=1 -sub=mysub.dta -rem=myrem.dta -do_not='2,3'
+

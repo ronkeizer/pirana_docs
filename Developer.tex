@@ -1,0 +1,301 @@
+\documentclass[a4,11pt]{report}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+
+\usepackage{lineno} \usepackage{color}
+\definecolor{PiranaOrange}{rgb}{0.9,0.4,0.1}
+\definecolor{Blue}{rgb}{0.0,0.0,0.7}
+\definecolor{Red}{rgb}{0.7,0.0,0.0}
+\definecolor{Grey}{rgb}{0.4,0.4,0.4}
+\definecolor{Grey1}{rgb}{0.9,0.9,0.9}
+\definecolor{Grey2}{rgb}{0.95,0.95,0.95}
+
+\bibliographystyle{unsrt}%Choose a bibliograhpic style}
+%\usepackage[options]{natbib}
+
+\usepackage[table]{xcolor} % for alternating table colors
+
+\sloppy \renewcommand{\familydefault}{\sfdefault} \oddsidemargin 1.5cm
+\textwidth 14cm
+
+\begin{document}
+
+\title{\textbf{\textcolor{Blue}{Pira\~na}\scriptsize\\
+ and the Pira\~na cluster}\\
+\vspace{15pt}
+\includegraphics[scale=0.12]{images/pirana_logo_blue.jpg} \\
+\vspace{15pt} \scriptsize Version 2.1.0beta \\
+Developer documentation \\
+ \vspace{5pt} \scriptsize \today} %\author{\small Ron Keizer\\
+\small Deptartment of Pharmacy and Pharmacology, \\ \small The
+Netherlands Cancer Institute / Slotervaart Hospital\\
+ %} \date{
+\vspace{120pt}
+  \includegraphics[scale=0.06]{images/slz3.png}
+\hspace{20pt}
+  \includegraphics[scale=0.4]{images/antoni1.png} }
+
+\maketitle
+\tableofcontents
+\pagebreak
+
+
+
+\section*{Introduction} \textcolor{PiranaOrange}{Pira\~na} is a
+graphical user interface (GUI) for performing PK-PD analyses with
+NONMEM. It provides a platform for model management, editing, running
+and evaluation. It can be used for modeling locally, but also supports
+an easy-to-implement distribution infrastructure
+(\textcolor{Blue}{PCluster}), as well as support for Mosix-clusters.\\
+
+
+\noindent Pira\~na is released as open source software, and is still
+in active development. In this document, the aims of Pira\~na, the
+general layout, and several development choices are documented, to
+help myself and future developers to continue and improve development
+of Pira\~na. \\
+
+
+\noindent Pira\~na is released under the GNU license. Basically, this
+means that you can use and distribute this version as much as you
+want, for free. If you want to help development of future versions of
+Pira\~na, either as a programmer or beta-tester, please let me
+know. \\
+
+\vspace{10pt}
+
+Amsterdam, \today
+
+Ron Keizer
+
+\scriptsize{\textcolor{Grey}{ronkeizer@gmail.com}} \normalsize
+
+\pagebreak
+
+
+\section{Outline} Pira\~na is programmed in Perl and consist of two
+perl-scripts and several modules. The two perl scripts (pirana.pl and
+subs.pl), contain most of the functionality for building the GUI. The
+modules (located in the \textcolor{Grey}{/pirana\_modules} folder)
+contain several specific functionality. For future additions to
+Pira\~na, the aim is to include new code as much as possible in
+separate modules, to ease code-traceability.\\
+
+\noindent Development of Pira\~na started on the Windows platform, but
+the aim for future versions is to write and maintain
+platform-independent code as much as possible. If platform
+independence is not possible for some functionality, specific code
+will be added to cope with Linux/Unix/Mac-specific issues.\\
+
+\begin{table}[h] \centering \rowcolors{1}{Grey1}{Grey2}
+\begin{tabular}{ll} \textbf{Module} & \textbf{Description} \\
+\small {db.pm} & \small {Interface for the SQLite databases} \\
+\small {model.pm} & \small {Routines for extracting information from NM models and output files} \\
+ \small {data\_inspector.pm} & \small {GUI for plotting variables from datasets/NM output files} \\
+\small {editor.pm} & \small {Built-in code editor with NM-TRAN syntax-highlighting} \\
+\small {PsN.pm} & \small {Subroutines for interfacing with some PsN functionality} \\
+ \small {misc.pm} & \small {Miscellaneous subroutines} \\
+	\end{tabular}
+	\caption{Pirana Modules}
+	\label{tab:PiranaModules}
+\end{table}
+
+
+\subsection{GUI: Tk toolkit} For implementation of the GUI, Pira\~na
+uses the Tk toolkit. Several additional CPAN modules have to be loaded
+as well. These include: Tk::Balloon, Tk::HList, Tk::ItemStyle,
+Tk::HdrResizeButton, Tk::Text, Tk::PlotDataset, and
+Tk::LineGraphDataset, which are available from the CPAN
+repository. The GUI that is created with Tk looks more or less the
+same on Windows and Linux/Mac, although slight differences are
+present, so in some instances OS-specific code has to be added to
+implemented.
+
+
+\subsection{Pira\~na source code structure} Pira\~na is initialized in
+\textcolor{Grey}{pirana.pl}. This creates the main window and frames,
+and builds the menu. The script also invokes the subroutine
+\textcolor{Grey}{\textit{initialize()}} (located in
+\textcolor{Grey}{internal/subs.pl}) which reads the users preferences,
+software settings, local and network NM-installations, and some other
+settings from the ini-files (table 2). The ini files specify on each
+line the parameter name, the parameter value and a description,
+separated by commas.\\
+
+\scriptsize
+\noindent\textcolor{Blue}{Note:} \textcolor{Grey}{It is my intention
+to implement reading/writing preferences in a database as well in a
+future release, but the current implementation suffices for now, and
+it is also little bit quicker to change settings manually this way.}\\
+\normalsize
+
+\begin{table}[h] \centering \rowcolors{1}{Grey1}{Grey2}
+  \begin{tabular}{ll} \textbf{ini-file} & \textbf{Description} \\
+    \small {settings.ini} & \small {Pira\~na preferences} \\
+    \small {software.ini} & \small {Links / paths to software like
+      Perl/R/notepad etc.} \\
+    \small {nm\_local.ini} & \small {NONMEM installations on local PC} \\
+    \small {nm\_cluster.ini} & \small {NONMEM installations on Mosix-cluster (using nmfe)} \\
+    \small {projects.ini} & \small {Locations of project-directories} \\
+    \small {psn.ini} & \small {Default parameters for PsN-commands} \\
+  \end{tabular}
+  \caption{Pirana Modules}
+  \label{tab:PiranaModules}
+\end{table}
+
+The settings are read by the subroutine \textcolor{Grey}{read\_ini()},
+which takes the ini-file as input, and returns three hashes for the
+parameter name, parameter value, description, respectively.
+
+\subsubsection{Window size} A compact and a full-screen GUI-layout are
+provided in the current version of Pira\~na on Windows. The compact
+view should not become larger than 1024x600 to allow Pira\~na to be
+used on netbooks and smaller screens. The HList widget, which is used
+for the model/results-overview cannot be stretched automatically to
+fill the complete window. This implies that when Pira\~na is maximized
+in a regular fashion, the main overview widget will stay the same
+size, and the newly created space is not filled. Therefore, to work
+around this limitation, Pira\~na calculates how much new size is
+created and from there a new width and height for the HList-widget.
+
+\subsection{Database} For storing notes on models/datasets, results of
+runs, and keeping logs of executed runs, Pira\~na uses SQLite-type
+databases. These databases are contained in the file
+\textcolor{Grey}{pirana.dir} in each folder that is visited by the
+user in Pira\~na. The file is created automatically by Pira\~na when
+it finds one or more models in the current folder. The following SQL
+code is used to create the necessary tables:
+
+\footnotesize
+\begin{verbatim} CREATE TABLE IF NOT EXISTS model_db model_id
+VARCHAR(20), date_mod INTEGER, date_res INTEGER, ref_mod VARCHAR(20),
+descr VARCHAR(80), method VARCHAR(12), ofv DOUBLE, suc VARCHAR(2), cov
+VARCHAR(2), bnd VARCHAR(2), sig VARCHAR(4), note TEXT, note_small
+VARCHAR(80), note_color VARCHAR(9) )
+
+    ALTER TABLE model_db ADD COLUMN dataset VARCHAR(60)
+
+    CREATE TABLE IF NOT EXISTS table_db ( table_id VARCHAR(50),
+date_mod INTEGER, ref_table VARCHAR(50), descr VARCHAR(160), creator
+VARCHAR(40), link_to_script VARCHAR(80), note TEXT, table_color
+VARCHAR(9) )
+
+    CREATE TABLE IF NOT EXISTS executed_runs ( model_id VARCHAR(20),
+descr VARCHAR(80), date_executed INTEGER, name_modeler VARCHAR(30),
+nm_version VARCHAR(20), method VARCHAR(12), exec_where VARCHAR(16),
+command VARCHAR(120) )
+\end{verbatim} \normalsize
+
+\noindent In the \textcolor{Grey}{db.pm} module the interface with the
+database implemented in several subroutines.
+
+\section{Managing and using NONMEM from Pira\~na} This section details
+how Pira\~na is used as front-end for NONMEM. Basically, there are
+four main types of running NONMEM locally:
+\begin{itemize}
+  \item using \textcolor{Grey}{nmfe6.bat}. This is the standard way of
+starting NONMEM.
+  \item using \textcolor{Grey}{NMQual}
+  \item using \textcolor{Grey}{PsN}
+  \item using \textcolor{Grey}{WFN}
+\end{itemize} The first two methods require the user to specify to
+Pira\~na where the installation is located. The latter two take care
+of this themselves: PsN by specifying this in
+\textcolor{Grey}{psn.conf} and WFN by specifying it in
+\textcolor{Grey}{wfn.bat}.
+
+\subsection{NONMEM installations} The locations of the nmfe- and
+NMQual type are stored in the file
+\textcolor{Grey}{ini/nm\_local.ini}, which are read during
+initialization of Pira\~na.
+
+\subsection{Starting models using NONMEM}
+
+
+\pagebreak
+\section{Cross-platform portability} Development of Pira\~na was first
+started on Windows in 2006, and initially a Linux version was not
+considered. However, since using Pira\~na on a Linux system may have
+certain advantages (especially when using a Cluster), and the fact
+that that Perl is a cross-platform language, the cross-platform
+development of Pira\~na has become an aim as well. Therefore, as much
+as possibele, code should be platform-independent. When for specific
+routines this is not possible (e.g. interacting with the system,
+executing programs etc.), platform-specific subroutines should be
+written.
+
+\subsection{Tk toolkit} In theory, the implementation of Perl/Tk is
+the same on Windows and Linux (or Mac OSX with the X-window
+system). However, in practice some differences occur. They include:
+\begin{itemize}
+  \item for some widgets it is not possible to specify a border width
+on Linux
+  \item due to font differences the width or height of some widgets
+may differ
+  \item on Linux, the background must be specified for each widget, on
+Windows the background is inherited from the parent widget
+  \item on Windows, icons are not displayed entirely correctly. It is
+not clear to me why this occurs, likely a bug in Tk
+\end{itemize}
+
+\subsection{Compiling Pira\~na into a Windows executable} Since most
+users will use Pira\~na on Windows, an executable file is included in
+the Pira\~na distribution. This is a compiled version of the Perl
+script. For the compilation, the \textcolor{Blue}{Perl Packager}
+\textcolor{Grey}{(http://search.cpan.org/\~autrijus/PAR-0.85\_01/script/pp)}
+is used. To compile Pira\~na manually from the source files, this
+command can be used (e.g.):
+
+\begin{verbatim} pp --gui --icon="c:\pirana\images\pirana.ico" -o
+pirana.exe pirana.pl --info=ProductName=Pirana
+--info=ProductVersion=2.1
+\end{verbatim}
+
+
+
+\section{Implementing custom functionality}
+
+An aim of Pira\~na is to allow developers to easily add custom
+functionality to Pira\~na. Basically, this can be done in two ways:
+\begin{itemize}
+  \item Using R scripts. This is the easiest way. Just add them to the
+    scripts folder, and after restarting Pira\~na the scripts are
+    available from the menu window. Model info is specified to the
+    script, so this can be used to generate run records etc.
+  \item Implementing new perl code. When R scripts don't suffice, or
+    functionality is desired as separate functionality from the
+    Pira\~na menu, new Perl scripts can be implemented.
+\end{itemize}
+Both methods are specified in the following section.
+
+\subsection{R script functionality}
+
+\subsection{Adding new functionality using Perl}
+
+\subsection{Perl coding conventions}
+
+In general, the Google code recommendations are adherede to.
+
+Additionally:
+\begin{itemize}
+  \item Subroutines are named as clearly as possible, specifying its
+functionality already in the subroutine name,
+e.g. 'run_command_in_console()'
+  \item The use of global variables is avoided if possible, use "my"
+to declare variables in subroutines, and pass them on to other
+subroutines if necessary.
+  \item Subroutines are as much as possible implemented in separate
+modules.
+  \item After declaration of a subroutine a description follows and a
+specification whether the subroutine is compatible with Windows /
+Linux, e.g.:
+
+\begin{verbatim} ### Purpose : Run a command and capture the console
+output ### Compat : W+L+
+\end{verbatim}
+
+\begin{itemize}
+
+
+
+\end{document}

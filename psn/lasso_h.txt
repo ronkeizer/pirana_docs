@@ -1,0 +1,24 @@
+
+  lasso
+
+    LASSO method for covariate model selection.
+
+
+[ -h | -? ] [ --help ]
+      [ --convergence='string' ]
+      [ --cutoff='number' ]
+      [ --groups='integer' ]
+      [ --lst_file='string' ]
+      [ --pred_ofv_start_t='number' ]
+        --relations='string'
+      [ --start_t='number' ]
+      [ --step_t='number' ]
+      [ --stop_t='number' ]
+      [ --stratify_on='string' ]
+      
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'lasso -help' for a longer description.
+    Also see 'psn_options -h' for a description of common PsN options.
+

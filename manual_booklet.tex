@@ -1,0 +1,174 @@
+\documentclass[9pt]{report} 
+\usepackage[paperwidth=15.24cm, paperheight=22.86cm]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+%\usepackage{lineno}
+
+%\usepackage[letter,frame,center]{crop}
+
+\usepackage{color}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{listings}
+\lstset{basicstyle=\small\ttfamily,breaklines=true,backgroundcolor=\color{lightGrey}}
+
+%\usepackage{bbm}
+\usepackage{hyperref}
+\usepackage{lscape}
+\definecolor{PiranaOrange}{rgb}{0.9,0.4,0.1}
+\definecolor{Blue}{rgb}{0.0,0.0,0.7}
+\definecolor{Red}{rgb}{0.7,0.0,0.0}
+\definecolor{Grey}{rgb}{0.4,0.4,0.4}
+\definecolor{Grey}{rgb}{0.4,0.4,0.4}
+\definecolor{LightGrey}{rgb}{0.92,0.92,0.92}
+\definecolor{grey2}{rgb}{.92, .92, .92}
+
+\bibliographystyle{unsrt}%Choose a bibliograhpic style}
+%\usepackage{utopia} %\usepackage{charter} %\usepackage{palatino}
+%\usepackage{bookman} %\usepackage{newcent} %\usepackage{times}
+%\usepackage[options]{natbib} \sloppy
+
+% font
+%\renewcommand{\familydefault}{\sfdefault} 
+
+\usepackage{mathpazo}
+\renewcommand{\familydefault}{\rmdefault}
+
+%\oddsidemargin 1.5cm
+%\textwidth 13cm
+\textheight 17.5cm
+
+\newcommand{\test}{\textcolor{Blue}{\textit{test}}\xspace}
+\newcommand{\reference}{\textcolor{Green}{\textit{reference}}\xspace}
+\newcommand{\valpsn}{\textcolor{Blue}{\textit{valpsn}}\xspace}
+\newcommand{\ValPsN}{\textcolor{PiranaOrange}{\textit{ValPsN}}\xspace}
+\newcommand{\psn}[1]{\textcolor{Grey}{#1}}
+
+\newcommand{\fname}[1]{\textit{#1}}
+\newcommand{\action}[1]{\textcolor{Red}{\textit{#1}}}
+\newcommand{\command}[1]{{\ttfamily{#1}}}
+
+%% code listings
+\lstset{
+  language=fortran,                   % the language of the code
+  basicstyle=\ttfamily\small,    % the size of the fonts that are used for the code
+  commentstyle=\color{Grey}\textit,
+  backgroundcolor=\color{LightGrey},  % choose the background color. You must add \usepackage{color}
+  captionpos=b,                       % sets the caption-position to bottom
+  columns=flexible,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  morekeywords={*, ...}               % if you want to add more keywords to the set
+}
+
+\begin{document}
+
+\title{
+  \vspace{-100pt}
+  \textbf{
+  \textcolor{PiranaOrange}{\Large Pirana}
+  }\\
+  \vspace{5pt}
+  \small \textcolor{Grey}{Pharmacometrics workbench for NONMEM \& PsN} \\
+  \normalsize
+  \vspace{15pt}
+  \hspace{15pt}\includegraphics[scale=0.2]{images/pirana_logo.jpg}\\
+  \vspace{15pt}
+  \small Installation guide\\Manual\\Tutorial\\Quick Guides\\
+  \vspace{8pt}  \textit{Pirana version $\geq$ 2.10.0}\\
+  \vspace{8pt}
+%  \scriptsize {\today} \\
+  \date{}
+}
+
+\maketitle
+
+\null\vfill
+\noindent
+
+\vspace{5pt}
+
+\small
+\noindent Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. -- Pirana Software \& Consulting BV\\
+
+\vspace{5pt}
+
+\noindent Chapter 9, the tutorial on Pirana, PsN, and Xpose, has
+earlier been published in the open access journal CPT-PSP (Nature
+Publishing Group).  This chapter is available under a creative commons
+license (Commons Attribution-Noncommercial-No Derivative Works
+3.0). In short, this means that you may reproduce the content for
+non-commercial purposes, although you are required to attribute its
+authors, and may not alter the content.
+
+\normalsize
+
+\newpage
+
+\tableofcontents
+\newpage  % one page left blank intentially
+\thispagestyle{empty}
+\mbox{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{manual_body.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage  % one page left blank intentially
+\thispagestyle{empty}
+\mbox{}
+
+\chapter{Tutorial: Pirana, PsN \& Xpose}
+
+\input{manual_tutorial.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\chapter{Quick Guides}
+
+\clearpage
+\section{Quick Guide: Configuring Pirana }
+\input{7_quick_guide_configuration_pirana_body.tex}
+
+\clearpage
+\section{Quick Guide: Setting up NONMEM in Pirana}
+\input{3_quick_guide_nonmem_installation_body.tex}
+
+\clearpage
+\section{Quick Guide: Setting up cluster connections}
+\input{2_quick_guide_cluster_body.tex}
+
+\clearpage
+\section{Quick Guide: Working with models}
+\input{4_quick_guide_working_with_models_body.tex}
+
+\clearpage
+\section{Quick Guide: Creating reports}
+\input{10_quick_guide_reporting_body.tex}
+
+\clearpage
+\section{Quick Guide: Graphical output in R}
+\input{8_quick_guide_graphics_withoutXpose_body.tex}
+
+\clearpage
+\section{Quick Guide: Creating a VPC}
+\input{1_quick_guide_vpc_body.tex}
+
+\clearpage
+\section{Quick Guide: Using Xpose from Pirana }
+\input{6_quick_guide_Xpose_graphics_body.tex}
+
+\clearpage
+\section{Quick Guide: Translating NM-TRAN }
+\input{5_quick_guide_convertingODEs_body.tex}
+
+\clearpage
+\section{Quick Guide: Using PsN from Pirana}
+\input{9_quick_guide_psn_body.tex}
+
+\end{document}
+
+
+

@@ -1,0 +1,29 @@
+
+
+    Stepwise covariate model building from NONMEM models.
+        
+
+[ -h | -? ] [ --help ]
+         --config_file='string'
+       [ --do_not_drop='string' ]
+       [ --epsilon! ]
+       [ --foce! ]
+       [ --global_init='string' ]
+       [ --groups='integer' ]
+       [ --linearize! ]
+       [ --logfile='string' ]
+       [ --lst_file='string' ]
+       [ --max_steps='integer' ]
+       [ --model='string' ]
+       [ --only_successful! ]
+       [ --parallel_states! ]
+       [ --splits='integer' ]
+       [ --stratify_on='string' ]
+       
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'xv_scm -help' for a longer description.
+    Also see 'scm -h' for a list of scm options,
+    and 'psn_options -h' for a description of common options.
+

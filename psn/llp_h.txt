@@ -1,0 +1,26 @@
+
+    llp
+
+      Log-likelihood profiling of NONMEM runs.
+
+    Usage:
+
+[ -h | -? ] [ --help ]
+    [ --max_iterations='integer' ]
+    [ --normq='number' ]
+    [ --ofv_increase='number' ]
+      --omegas='omega list'
+    [ --outputfile='string' ]
+    [ --rse_omegas='omega rel. SE list' ]
+    [ --rse_sigmas='sigma rel. SE list' ]
+    [ --rse_thetas='theta rel. SE list' ]
+      --sigmas='sigma list'
+    [ --significant_digits='integer' ]
+      --thetas='theta list'
+    
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'llp -help' for a longer description.
+      Also see 'psn_options -h' for a description of common options.
+

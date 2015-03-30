@@ -1,0 +1,26 @@
+
+    bootstrap
+      
+      Bootstrap using the percentile or BCa method.
+      
+    Usage:
+
+[ -h | -? ] [ --help ]
+          [ --allow_ignore_id! ]
+          [ --bca ]
+          [ --copy_data! ]
+          [ --rplots ]
+          [ --sample_size='string' ]
+          [ --samples='integer' ]
+          [ --skip_covariance_step_terminated! ]
+          [ --skip_estimate_near_boundary! ]
+          [ --skip_minimization_terminated! ]
+          [ --skip_with_covstep_warnings! ]
+          [ --stratify_on='string' ]
+          
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'bootstrap -help' for a longer description.
+      Also see 'psn_options -h' for a description of common options.
+

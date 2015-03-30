@@ -1,0 +1,19 @@
+
+
+    Bootstrapped stepwise covariate model building from NONMEM models.
+        
+
+[ -h | -? ] [ --help ]
+         [ --dummy_covariates='string' ]
+         [ --methodA! ]
+         [ --run_final_models! ]
+           --samples='integer'
+         [ --stratify_on='string' ]
+         
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'boot_scm -help' for a longer description.
+    Also see 'scm -h' for a list of scm options,
+    and 'psn_options -h' for a description of common options.
+

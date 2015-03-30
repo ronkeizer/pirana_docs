@@ -1,0 +1,34 @@
+
+  sumo
+    sumo
+
+    Perl script for summarizing output data. 
+    It gathers some useful information from NONMEM output files and prints
+    a summary to screen.
+
+[ -h | -? ] [ --help ]
+     [ --c_level='number' ]
+     [ --check_run! ]
+     [ --condition_number_limit='number' ]
+     [ --confidence_interval|ci ]
+     [ --correlation_limit='number' ]
+     [ --csv! ]
+     [ --debug='integer' ]
+     [ --debug_package='string' ]
+     [ --debug_subroutine='string' ]
+     [ --large_omega_cv_limit='number' ]
+     [ --large_sigma_cv_limit='number' ]
+     [ --large_theta_cv_limit='number' ]
+     [ --max_problem_num='integer' ]
+     [ --max_subproblem_num='integer' ]
+     [ --near_bound_sign_digits='integer' ]
+     [ --near_zero_boundary_limit='number' ]
+     [ --precision='number' ]
+     [ --sd_rse! ]
+     [ --sign_digits_off_diagonals='integer' ]
+     
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled
+    using '-no-option', for example -no-handle_crashes.
+    Use 'sumo -help' for a longer description.
+

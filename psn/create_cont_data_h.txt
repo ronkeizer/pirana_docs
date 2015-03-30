@@ -1,0 +1,44 @@
+
+  create_cont_data
+
+      Create_cont_data is a perl script that wraps the rows in a data
+      set with more than 20 columns. Rows that do not end up at
+      exactly 20 will be padded with dummy columns.
+
+    Usage:
+
+      create_cont_data filename
+      [-idcolumn=column_number]
+      [-cont_column=column_number]
+      [-wrap_column=column_number]
+      [-model=filename]
+      [-new_name=new_filename]
+
+    Example:
+
+      ./create_cont_data -idc=1 -new=new_wrapped.dta old_big.dta
+
+      ./create_cont_data -idc=1 -new=new_wrapped.dta -mod=run.mod old_big.dta
+
+    Options:
+
+      -idcolumn
+	The number of the column holding the subject identifier. The
+	default value is 1.
+
+      -cont_column
+	The number of the column where the CONT data itemn should be
+	placed. The default is to put it as the last item in each row.
+
+      -wrap_column
+	The number of the columns in each row. The default is 20.
+
+      -model
+        The name of a model file. The header as specified in the
+        $INPUT record is used as template for the order and format of
+        the new data file.
+
+      -new_name
+        The name of the new data set. If no name is given, the result
+        is printed on standard output.
+

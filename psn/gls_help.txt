@@ -1,0 +1,75 @@
+
+  gls
+
+    Generalised Least Squares approximation of FOCE INTER
+
+
+
+
+
+
+    Options:
+
+      The options are given here in their long form. Any option may be
+      abbreviated to any nonconflicting prefix. The -threads option
+      may be abbreviated to -thr, but -debug may not be
+      abbreviated to -d because it conflicts with -debug_packages and
+      -debug_subroutines.
+
+      The following options are valid:
+
+      -additive_theta=XX
+
+      Default not used. In gls model, add a small and fix additive error in W. 
+      The error is added by changing W=SQRT() to 
+      W=SQRT(THETA(T)**2+) in the gls model, where T is the order 
+      number of new $THETA XX FIX added to the model.
+
+      -gls_model
+
+      Default not set. Only possible together with option -iwres_shrinkage 
+      or -ind-shrinkage. This option is to be used when a datafile with all data 
+      needed for the gls model run is already available, i.e. all input for the 
+      original model plus columns with PRED and IPRED from the original model run 
+      with METHOD=1 NOINTER, and if -ind_shrinkage is set also a ISHR column with 
+      per observation shrinkage values. The option indicates that $DATA specifies 
+      the file with the gls input data, and that $INPUT lists the parameters in the 
+      datafile. In $INPUT the columns PPRE and PIPR must be present, plus ISHR 
+      if -ind_shrinkage is set, as headers for PRED and IPRED values, and possibly 
+      shrinkage, from the original model run.
+      Then PsN will add the GLSP code to the gls model and run it directly, saving 
+      the original model run.
+
+      Note that a run with the ebe_npde program will automatically generate
+      a complete input file for gls (including PRED IPRED and per-observation shrinkage)
+
+      -ind_shrinkage
+
+      Default not set. Compute per-observation iwres-shrinkage based on simulations. 
+
+      -iwres_shrinkage=X
+
+      Default not used. Forbidden in combination with -ind_shrinkage. If the 
+      population iwres shrinkage from the input model run with METHOD=1 NOINTER 
+      is already available, the user can give the value as input to save some 
+      computing time. The saving is however negligible unless option -gls_model 
+      is also used, see below. Important note: PsN reports shrinkage in percent 
+      in the raw_results file, so when input using the iwres_shrinkage option the 
+      value from raw_results must be divided by 100.
+
+      -reminimize
+
+      Default not set. Only relevant if -ind_shrinkage is set and -gls_model is 
+      not set.By default, simulated datasets will be run with MAXEVAL=0 
+      (or equivalent for non-classical estimation methods). If option -reminimize 
+      is set then $EST will be the same as in the input model.
+
+      -samples=N
+
+      Default not used. Only relevant if -ind_shrinkage is set and -gls_model 
+      is not set. Creates N copies of input model with different seeds in $SIM. 
+      Run to get N IWRES values for each data point yij. Compute 
+      iwres_shrinkageij =1-stdev(IWRESij(1:N))
+
+    Also see 'psn_options -h' for a description of common PsN options.
+

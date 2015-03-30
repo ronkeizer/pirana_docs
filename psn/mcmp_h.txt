@@ -1,0 +1,30 @@
+
+  mcmp
+
+    Monte-Carlo Mapped Power
+
+[ -h | -? ] [ --help ]
+     [ --critical_ofv='number' ]
+     [ --curve! ]
+     [ --df='integer' ]
+     [ --full_model='string' ]
+     [ --increment='integer' ]
+     [ --max_size='integer' ]
+     [ --n_bootstrap='integer' ]
+     [ --reduced_model='string' ]
+     [ --significance_level='integer' ]
+     [ --simdata='string' ]
+     [ --simulation_model='string' ]
+     [ --start_size='integer' ]
+     [ --stratify_on='string' ]
+     [ --table_full='string' ]
+     [ --table_reduced='string' ]
+     [ --table_strata='string' ]
+     [ --target_power='integer' ]
+     
+    Options enclosed by [ ] are optional.
+    Exclamation mark, !, after the option name means option can be disabled using '-no-option', for example -no-handle_crashes.
+    Use 'mcmp -help' for a longer description.
+
+    Also see 'psn_options -h' for a description of PsN common options.
+
