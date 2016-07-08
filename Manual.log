@@ -1,13 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.20)  23 MAR 2015 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.17)  7 JUL 2016 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\input Manual.tex
+**Manual.tex
 (./Manual.tex
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -22,31 +24,31 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -54,26 +56,25 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 143.
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count89
 \float@exts=\toks15
 \float@box=\box26
 \@float@everytoks=\toks16
 \@floatcapt=\box27
-)
-(./enumitem.sty
+) (./enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip43
 \enit@outerparindent=\dimen105
@@ -81,7 +82,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box28
 \enitdp@description=\count90
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count91
 \lst@gtempboxa=\box29
 \lst@token=\toks18
@@ -95,16 +96,16 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \lst@lineno=\count96
 \lst@maxwidth=\dimen109
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count97
 \lst@skipnumbers=\count98
 \lst@framebox=\box30
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/03/04 1.5c listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 
 LaTeX Warning: Unused global option(s):
@@ -125,8 +126,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
-(/usr/local/texlive/2014basic/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen110
@@ -139,15 +139,15 @@ LaTeX Font Info:    ... okay on input line 28.
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks20
-) (/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -156,21 +156,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -182,12 +183,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count105
- <images/pirana_logo.jpg, id=1, 1003.75pt x 602.25pt>
+
+<images/pirana_logo.jpg, id=1, 1003.75pt x 602.25pt>
 File: images/pirana_logo.jpg Graphic file (type jpg)
 
 <use images/pirana_logo.jpg>
@@ -207,8 +209,8 @@ LaTeX Warning: No \author given.
 
 [1
 
-{/usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-images/pirana_logo.jpg>] (./Manual.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/pirana_logo.jpg>]
+ (./Manual.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
  [1
@@ -352,7 +354,7 @@ Package pdftex.def Info: images/plot.png used on input line 663.
 File: images/interactive_scripts.png Graphic file (type png)
 
 <use images/interactive_scripts.png>
-Package pdftex.def Info: images/interactive_scripts.png used on input line 760.
+Package pdftex.def Info: images/interactive_scripts.png used on input line 773.
 
 (pdftex.def)             Requested size: 219.82071pt x 125.46843pt.
 
@@ -360,40 +362,40 @@ Package pdftex.def Info: images/interactive_scripts.png used on input line 760.
 File: images/xposewindow.png Graphic file (type png)
 
 <use images/xposewindow.png>
-Package pdftex.def Info: images/xposewindow.png used on input line 781.
+Package pdftex.def Info: images/xposewindow.png used on input line 793.
 (pdftex.def)             Requested size: 276.53244pt x 256.45749pt.
  [29 <./images/interactive_scripts.png>] [30 <./images/xposewindow.png>] [31]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 870.
+(Font)              <9> on input line 882.
  [32]
 <images/diff.png, id=147, 1060.96375pt x 769.87625pt>
 File: images/diff.png Graphic file (type png)
  <use images/diff.png>
-Package pdftex.def Info: images/diff.png used on input line 928.
+Package pdftex.def Info: images/diff.png used on input line 940.
 (pdftex.def)             Requested size: 297.06783pt x 215.56387pt.
 
 [33] <images/modelbackup.png, id=151, 763.85374pt x 484.81125pt>
 File: images/modelbackup.png Graphic file (type png)
 
 <use images/modelbackup.png>
-Package pdftex.def Info: images/modelbackup.png used on input line 946.
+Package pdftex.def Info: images/modelbackup.png used on input line 958.
 (pdftex.def)             Requested size: 267.35281pt x 169.68648pt.
  [34 <./images/diff.png>]
 <images/cor.png, id=156, 1053.9375pt x 396.48125pt>
 File: images/cor.png Graphic file (type png)
  <use images/cor.png>
-Package pdftex.def Info: images/cor.png used on input line 958.
+Package pdftex.def Info: images/cor.png used on input line 970.
 (pdftex.def)             Requested size: 295.1005pt x 111.01398pt.
 
 [35 <./images/modelbackup.png> <./images/cor.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 100
-9.
-LaTeX Font Info:    No file OMScmss.fd. on input line 1009.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 102
+1.
+LaTeX Font Info:    No file OMScmss.fd. on input line 1021.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 1009.
+(Font)              for symbol `textbullet' on input line 1021.
 
 Missing character: There is no ï in font cmss8!
 Missing character: There is no ¿ in font cmss8!
@@ -403,7 +405,7 @@ Missing character: There is no ½ in font cmss8!
 ] [38] [39
 
 ]
-Overfull \hbox (32.36812pt too wide) in paragraph at lines 1179--1187
+Overfull \hbox (32.36812pt too wide) in paragraph at lines 1192--1200
 []\OT1/cmss/m/sl/10.95 On startup of Pi-rana on Win-dows, it com-plains that it
  can't find the file libgcc[]s[]dw2/1.dll,
  []
@@ -413,21 +415,21 @@ Overfull \hbox (32.36812pt too wide) in paragraph at lines 1179--1187
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1300
 
  []
 
 [43
 
 ]
-Overfull \hbox (140.60394pt too wide) in paragraph at lines 1329--1334
+Overfull \hbox (140.60394pt too wide) in paragraph at lines 1342--1347
 \OT1/cmss/m/n/10.95 or Mac. On Win-dows, we have good ex-pe-ri-ences with PuTTY
  (http://www.chiark.greenend.org.uk/$\OMS/cmss/m/n/10.95 ^^X$\OT1/cmss/m/n/10.9
 5 sgtatham/putty/)
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
 
  []
 
@@ -435,8 +437,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
 File: images/Figure3_1_SGEmonitor.png Graphic file (type png)
 
 <use images/Figure3_1_SGEmonitor.png>
-Package pdftex.def Info: images/Figure3_1_SGEmonitor.png used on input line 140
-1.
+Package pdftex.def Info: images/Figure3_1_SGEmonitor.png used on input line 141
+4.
 (pdftex.def)             Requested size: 196.63614pt x 165.92114pt.
  (./amw_tutorial.tex [46 <./images/Figure3_1_SGEmonitor.png>]
 Chapter 5.
@@ -507,7 +509,7 @@ Chapter 6.
 File: images/cpirana_main.png Graphic file (type png)
 
 <use images/cpirana_main.png>
-Package pdftex.def Info: images/cpirana_main.png used on input line 1451.
+Package pdftex.def Info: images/cpirana_main.png used on input line 1464.
 (pdftex.def)             Requested size: 307.14987pt x 186.69893pt.
  [54
 
@@ -518,7 +520,7 @@ Chapter 7.
 ] [58] [59]
 Chapter 8.
 
-Overfull \hbox (37.4417pt too wide) in paragraph at lines 1613--1620
+Overfull \hbox (37.4417pt too wide) in paragraph at lines 1626--1633
 \OT1/cmss/m/n/10.95 If you find any bugs, please re-port them at the sup-port s
 ec-tion of our web-site (http://www.pirana-
  []
@@ -529,6 +531,9 @@ ec-tion of our web-site (http://www.pirana-
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  )
 (\end occurred inside a group at level 4)
 
@@ -538,33 +543,31 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### simple group (level 1) entered at line 220 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3317 strings out of 494522
- 50481 string characters out of 6167205
- 144850 words of memory out of 5000000
- 6510 multiletter control sequences out of 15000+600000
+ 3318 strings out of 494953
+ 49857 string characters out of 6180977
+ 147061 words of memory out of 5000000
+ 6536 multiletter control sequences out of 15000+600000
  14059 words of font info for 49 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 38i,8n,32p,1046b,1733s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2014basic/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2014basic/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2014basic/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2014basic/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2014b
-asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/
-2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texl
-ive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loc
-al/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Manual.pdf (61 pages, 1455932 bytes).
+ 14 hyphenation exceptions out of 8191
+ 38i,8n,32p,1039b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Manual.pdf (61 pages, 1529128 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  192 compressed objects within 2 object streams
