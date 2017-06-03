@@ -179,12 +179,23 @@ perl pirana.pl
 distribution 5.10.0 or lower. Pirana should work on any Linux distribution
 with X-windows and Perl/Tk installed.
 
-\section{Installation of license file} License files can be installed by going to `Help' $\rightarrow$ `Import license file'. On Windows, you can also install the license file by dropping it on the Pirana main window. Upon starting Pirana, the presence of a valid license file (pirana.lic) in Pirana's main installation folder will be checked. If no valid license file is present, a message will be displayed and some functionality of Pirana will be
-disabled. Academic, commercial, or trial license files can be obtained
-on the website.
+\section{Installation of license file} License files can be installed by going to `Help' $\rightarrow$ `Import license file'. On Windows, you can also install the license file by dropping it on the Pirana main window.
+Upon starting Pirana, the presence of a valid license file (pirana.lic) in Pirana's main installation folder will be checked.
+If no valid license file is present there, the following locations will also be checked in succession (later finds will override earlier finds):
 
-\section{Configuration} Although most preferences will
-be correct by default, we recommend to check at least the
+\begin{itemize}
+  \item Pirana settings folder (`\~{}/.pirana/pirana.lic')
+  \item User home folder (`\~{}/pirana.lic')
+  \item Metworx persistent user folder (`/data/pirana.lic')
+  \item specified using environment variable (e.g. `PIRANA\_LIC=/data/pirana.lic')
+  \item specified using command line argument (e.g. `--pirana\_lic=/data/pirana.lic')
+\end{itemize}
+
+If no valid license file is found on any of these locations, a message will be displayed and some functionality of Pirana will be
+disabled. Academic, commercial, or trial license files can be obtained on the website.
+
+\section{Configuration} Although many preferences will
+be set correctly by default, we recommend to check at least the
 settings detailed below. Familiarize yourself with
 the other options as well, to get the most out of Pirana. Especially check the correct file extensions
 for NONMEM model files and output files.

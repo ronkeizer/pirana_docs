@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Installation procedure on Mac OS X}{6}
 \contentsline {subsection}{\numberline {2.2.3}Installation procedure on Linux}{6}
 \contentsline {section}{\numberline {2.3}Installation of license file}{8}
-\contentsline {section}{\numberline {2.4}Configuration}{8}
+\contentsline {section}{\numberline {2.4}Configuration}{9}
 \contentsline {section}{\numberline {2.5}Configuration for modeling groups}{10}
 \contentsline {subsubsection}{Configuration files location}{10}
 \contentsline {chapter}{\numberline {3}Using Pirana}{12}
